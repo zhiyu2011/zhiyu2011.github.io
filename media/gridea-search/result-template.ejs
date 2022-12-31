@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <% posts.forEach(function(post) { %>
+      <!-- 每行的总容器 -->
+      <div class="post-row-container">
+        <!-- 第0层；标题 -->
+        <div class="title-floor">
+          <div class="post-title-container">
+            <a href="<%= post.link %>">
+              <h2 class="post-title">
+                <%= post.title %>
+              </h2>
+            </a>
+          </div>
+        </div>
+        <!-- 第一层：包含文章描述、时间信息、封面图 -->
+        <div class="post-row-first-floor">
+          <div class="post-preview">
+            <h3 class="post-subtitle serchedPreview">
+              <%- post.searchedPreview %>
+            </h3>
+            <p class="post-meta">
+              <span class="time"><%= post.dateFormat %></span>
+              <span>,</span>
+              <span class="post-stats"><%= post.stats.text %></span>
+            </p>
+          </div>
+          <% if (themeConfig.showFeatureImage && post.feature) { %>
+          <a href="<%= post.link %>" class="post-feature-image" style="background-image: url('<%= post.feature %>')">
+          </a>
+          <% } %>
+        </div>
+        <!-- 第二层：下划线、占位标签、tags -->
+        <div class="post-row-sec-floor">
+          <hr>
+          <div class="clearfix"></div>
+          <% post.tags.forEach(function(tag) { %>
+          <a href="<%= tag.link %>" class="post-tag">
+            <%= tag.name %>
+          </a>
+          <% }); %>
+        </div>
+      </div>
+      </>
+      <% }); %>
+    </div>
+  </div>
+</div>
