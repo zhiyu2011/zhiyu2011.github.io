@@ -1,0 +1,20 @@
+{
+	"version": "Sample 1.0.0",
+	"model": "moc/tororo.moc",
+	"textures": ["moc/tororo.2048/texture_00.png"],
+	"pose": "tororo.pose.json",
+	"name": "tororo",
+	"motions": {
+		"idle": [{ "file": "mtn/toroto/00_idle.mtn" }],
+		"": [
+			{ "file": "mtn/toroto/01.mtn" },
+			{ "file": "mtn/toroto/02.mtn" },
+			{ "file": "mtn/toroto/03.mtn" },
+			{ "file": "mtn/toroto/04.mtn" },
+			{ "file": "mtn/toroto/05.mtn" },
+			{ "file": "mtn/toroto/06.mtn" },
+			{ "file": "mtn/toroto/07.mtn" },
+			{ "file": "mtn/toroto/08.mtn" }
+		]
+	}
+}

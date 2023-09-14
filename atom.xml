@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhiyu2011.github.io</id>
+    <title>闫旭亮</title>
+    <updated>2023-09-14T12:20:18.398Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zhiyu2011.github.io"/>
+    <link rel="self" href="https://zhiyu2011.github.io/atom.xml"/>
+    <subtitle>记录生活、工作中的一些片段</subtitle>
+    <logo>https://zhiyu2011.github.io/images/avatar.png</logo>
+    <icon>https://zhiyu2011.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 闫旭亮</rights>
+    <entry>
+        <title type="html"><![CDATA[分享几个有趣实用的网站]]></title>
+        <id>https://zhiyu2011.github.io/NJbkVAzTZ/</id>
+        <link href="https://zhiyu2011.github.io/NJbkVAzTZ/">
+        </link>
+        <updated>2023-07-31T01:27:31.000Z</updated>
+        <content type="html"><![CDATA[<p>1、<a href="https://cl.xugaoyi.com/">手写春联</a></p>
+<p>2、<a href="https://avatar.xugaoyi.com/">爱国头像生成器</a></p>
+<p>3、<a href="https://fakeupdate.net/">假装系统升级</a></p>
+<p>4、<a href="https://xin.baidu.com/m?fl=1&amp;castk=LTE">免费查企业</a></p>
+<p>5、国外手机号接码平台<br>
+https://receive-smss.com/</p>
+<p>6、<a href="https://yasuo.xunjiepdf.com/img/">迅捷在线图片压缩</a></p>
+<p>7、<a href="https://chacha.so.com/home">免费版权图片</a></p>
+<p>8、免费图床 /免费图片外链工具<br>
+https://www.superbed.cn/signup?from_id=64005  免费用户最多同时上传5张图片，不限大小。<br>
+路过图床 不用注册可直接上传，可直接复制HTML或MarkDown的链接到你的博客里面就可以啦<br>
+SM.MS图床https://sm.ms/  备用域名https://smms.app/ 需要注册，上传速度毫无疑问也很快。<br>
+https://postimages.org/ 来自国外的免费图床网站，支持按照一定大小缩放图片及设置图片自动删除。<br>
+图壳（https://imgkr.com/）是一个免费图床，图片服务器托管在国内的 UCloud，无需注册即可上传，网站上没有注明文件大小限制。每次可批量上传 5 张图片。<br>
+http://img.yunweishare.com/   游客限制每日上传10张，单张图片不能超过5M，上传的图片将公开显示！</p>
+<p>9、<a href="https://tools.pdf24.org">PDF各类工具合集</a>    PDF24 Tools 免费且易于使用的在PDF工具</p>
+<p>10、<a href="https://tool.browser.qq.com/">腾讯帮小忙在线工具箱平台</a><br>
+帮小忙是腾讯出品的在线工具箱平台，该网站支持100多款在线工具，包含了图片工具，数据换算，生活娱乐，教育，开发，文档，视频，PDF等相关的实用工具。</p>
+<p>11、<a href="https://www.logosc.cn/design/profile">免费万能头像生成器</a><br>
+一键生成职业照头像，微信头像，或趣味卡通风格头像照</p>
+<p>12、<a href="https://effidit.qq.com/">腾讯智能创作助手</a><br>
+智能创作助手 Effidit（Efficient and Intelligent Editing） 是由腾讯 AI Lab 开发的一个研究性原型系统，探索用 AI 技术提升写作者的写作效率和创作体验（在线体验推荐使用 Chrome 或 Microsoft Edge 浏览器）</p>
+<p>13、<a href="https://dingtalk.com/qidian/">钉钉企典</a><br>
+钉钉企典现在有单独的网站可以查询，可以免费查询公司，查询法人</p>
+<p>13、<a href="https://picx-docs.xpoet.cn/">PicX 免费图床</a> PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。<br>
+功能<br>
+支持拖拽、复制粘贴、选择文件等方式进行选择图片<br>
+支持图片重命名、哈希化（确保图片名唯一）和设置命名前缀<br>
+支持批量上传图片、批量删除图片和批量复制图片链接<br>
+支持图床多级目录管理 （创建多级目录 / 查看多级目录下图片）<br>
+支持一键复制图片链接和自由转换 Markdown / HTML 格式<br>
+内置多种图片链接规则（Staticaly、jsDelivr、ChinaJsDelivr 等）<br>
+支持配置自定义图片链接规则<br>
+支持图片压缩 (内置高效压缩算法，可配置在上传前自动压缩)<br>
+支持暗夜模式 (自由切换 / 自动切换)<br>
+支持 PWA<br>
+支持配置图片水印</p>
+<p>https://picx-docs.xpoet.cn/</p>
+<p>https://github.com/XPoet/picx</p>
+<p>https://gitee.com/mirrors/PicX</p>
+<p>[&gt;_&lt;]:  在 Markdown 中，插入链接只需要使用 <a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">显示文本</a> 这样的语法即可</p>
+<iframe  class="music"  frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=86 src="//music.163.com/outchain/player?type=2&id=2004730514&auto=1&height=66"></iframe>
+🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀
+<p>视频分享</p>
+<div class="tvcontainer">
+<iframe class="tv"  src="https://player.bilibili.com/player.html?cid=145147963&aid=84267566&page=1&as_wide=1&high_quality=1&danmaku=0"frameborder="no" scrolling="no"></iframe>
+</div>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分享几个清华大学出品的工具和服务]]></title>
+        <id>https://zhiyu2011.github.io/IR9KGCa0O/</id>
+        <link href="https://zhiyu2011.github.io/IR9KGCa0O/">
+        </link>
+        <updated>2023-05-07T06:54:54.000Z</updated>
+        <content type="html"><![CDATA[<p>1、<a href="https://wantwords.net/">汉语反向词典</a><br>
+随着短视频的盛行，人们花费越来越多的时间在观看视频上，而这也导致了阅读时间相对减少。<br>
+时间一长，就出现了这么一种现象，遇到很厉害的东西，如果想不好怎么赞美，最终只有“一句卧槽走遍天下”<br>
+如果你恰好也有这种困境，不妨试试清华大学人工智能研究院和清华大学自然语言处理与社会人文计算实验室合作开发的反向词典，网站功能很简单，输入一个简单的词，它就能为你自动匹配一堆意义相近且更高级的词汇！</p>
+<p>2、<a href="https://wantquotes.net/">据意查句</a><br>
+这个网站功能与第一个类似，但是在阿水看来它却更适合日用图片，与第一个网站的不同点在于它可以根据你输入的句子来自动匹配意义相近的句子，适合辅助日常写作使用。</p>
+<p>3、<a href="https://live.openbmb.org/">模力表格</a><br>
+这是一款在线表格处理工具，选中不同部分即可自动生成图表、词云、筛选数据，可以大大提高数据处理和分析的效率，这不比Excel香？<br>
+视化数据分析也比传统的Excel更加好用，能够同时生成柱状图和数据分析图表，大大提升数据处理的效率。</p>
+<p>PS:下面这个也不错，智能处理Excel表格，通过聊天就能处理表格<br>
+https://chatexcel.com</p>
+<p>4、<a href="https://www.ijiaodui.com">爱校对</a><br>
+从事文字工作的朋友应该知道，其实思路出来，写文章是很快的事情，但这不等于说写篇文章很容易，毕竟写完后的校对、修改才是真正消耗时间的工作图片，尤其是对非自媒体的文字工作者，错一个字可能就意味着扣工资……<br>
+这里推荐大家试试清华大学人机交互实验室旗下的爱校对。<br>
+把写好的文章复制进来，并点击立即校对，即可自动识别文章中的错别字、标点问题以及敏感词等可能影响文章的内容。<br>
+网站还可以上传并一键校对doc等格式的文件，无需重新排版，也不用担心格式混乱。</p>
+<p>5、清华幸福公益心理服务热线<br>
+如果你的确有心理咨询的需要，不妨试试清华大学推出的幸福公益心理服务热线，这个热线只收取基础的话费，不会产生其他费用，且都是来自顶尖学府的咨询师，大家可以放心咨询！<br>
+热线电话 ：4000-100-525<br>
+6、荆紫心晴小程序<br>
+日常冲浪，大家可能会遇到各种各样的心理测试量表，以测试自己的心理状态和人格类型，但是这些量表的科学性实在是一言难尽。<br>
+如果你确实需要做一些心理测试，可以试试清华大学推出的荆紫心晴小程序，里面提供了多种类型的、专业的心理测试量表，来辅助评估你的心理健康状况。<br>
+这个小程序在搜一搜中无法直接找到，大家可以直接复制下面这段问题到微信聊天记录，然后点击一下即可进入<br>
+#小程序://紫荆心晴/BW7agJLmTNkZ5Ji</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中年男人不如狗]]></title>
+        <id>https://zhiyu2011.github.io/E4-0S4uqN/</id>
+        <link href="https://zhiyu2011.github.io/E4-0S4uqN/">
+        </link>
+        <updated>2023-04-14T12:20:35.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>    昨天晚上加完班，走出物业办公室的门，望着昏黄的路灯和楼上万家灯火，心底里突然就冒出一句感叹“中年男人活的不如狗”。这是一句以前经常在网络上看到的别人的吐槽，那会还只是肤浅的觉得这仅仅是一句自我调侃，现如今，年过35岁，面对现实的种种压力，即使使出了浑身解数仍然无法逃脱时，莫名的就有了这种感叹，真的活的好累。
+    回到出租房，胡乱潦草的煮点面条对付一下由于不规律饮食早就忘记饥饿的肚子，纯碎是为了保持身体最基本的日常能量消耗。就这么简单的重复日复一日，每天住所到办公地点这样两点一线的生活，似乎永远忙碌着，却又说不出来有哪些成就。于是，伴随着年岁渐长，伴随着冬去春来，伴随着花开花落，年轻时的梦想与激情离自己越来越远，有时简直觉得就是一具行走的木偶，没有灵魂，没有追求，没有喜乐，不懂欢笑，麻木着、堕落着……
+    曾经很多个无眠的夜晚，躺在床上辗转反侧时，会不由得想，要是当初没有换大房子，要是当初买个便宜点的代步车，要是就那么凑合着，或许就不会有现在这么大的压力，每个月都要给银行还房贷，要给孩子交幼儿园学费，要还车贷，要交物业费、停车费、保险费，要还支付宝花呗、还信用卡账单，各种开销加起来就是沉重的负担。当初怀揣着改善家人生活条件的想法，如今早已被巨大的压力所覆盖。悔不当初却又悔无可悔。
+    有时候，忙的顾不上吃午饭，顾不上喝水，甚至顾不上上厕所的时候，每天微信、电话、QQ消息响不停的时候，真想换份悠闲的工作，曾很多次羡慕微信群里大家你一言我一语的闲聊，感叹人家能在工作时间还有空聊天，就想换一种活法，过采菊东篱下，悠然见南山的闲云野鹤般的生活，幻想可以去看祖国的大好河山，可以来场说走就走的旅行。最后，想起一家老小，想起入不敷出的钱包，每月捉襟见肘的生活，把一切都深埋心底，告诫自己还是收起心思，好好搬砖，做一个合格的打工人吧。
+    我对ChatGPT说“以中年男人不如狗为开头说段话”，一秒后它告诉我“很抱歉，作为一个语言模型 AI，我不能为您提供违反道德规范或侮辱性的内容。 我们应该尊重所有人，无论他们的年龄、性别或任何其他属性。如果您有其他问题需要回答，请随时问我。”我笑了，机器模型居然觉得这句话有违道德或有侮辱性，好吧，那就再自我侮辱一次吧：
+    人到中年不如狗，既入红尘无退路。人生在世本辛苦，再不觉醒万事休！
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[聊聊人工智能]]></title>
+        <id>https://zhiyu2011.github.io/dyQ1rG7tx/</id>
+        <link href="https://zhiyu2011.github.io/dyQ1rG7tx/">
+        </link>
+        <updated>2023-04-05T01:48:38.000Z</updated>
+        <content type="html"><![CDATA[<p>去年底chatGPT横空出世，一石激起千层浪，至今人工智能的话题热度不减，资本市场上也是不断炒作。由于墙的原因，国内网民只能通过一些特殊手段才能访问体验。由于人工只能不仅是技术层面的竞争，同时也是意识形态领域/政治文化 方面的渗透，所以国内各种仿品也冒出了，目前百度的文心一言算是稍稍好点，但跟国外的chatGPT 相比还是有差距，至少目前没有大范围放开使用，还处于内测阶段。</p>
+<p>我去年倒是体验过一次国外的chatGPT，让写简单的代码、写首现代诗歌、问一些问题都能很快给出结果，今年再尝试时当时的地址已经无法访问了。于是重新找了一个渠道，试了一下还不错，现在的chatGPT已经可以联网了，在工作上有时能提供很大帮助，下面节选一部分聊天记录。</p>
+<p>2023/4/2 19:29:59</p>
+<p>创作一首诗歌，开头两个字是春风</p>
+<p>2023/4/2 19:30:04</p>
+<blockquote>
+<p>春风轻拂万物生，<br>
+和煦温暖送花香。<br>
+山野草木抽新绿，<br>
+人间桃李笑颜霜。<br>
+鸟语花香春意浓，<br>
+婆娑舞姿飘逸动。<br>
+举杯共赏春日好，<br>
+欢歌笑语乐无边。</p>
+</blockquote>
+<p>2023/4/2 19:32:09</p>
+<p>朋友由于身体原因才刚恢复并重新进入社会，我该怎么说？</p>
+<p>2023/4/2 19:32:20</p>
+<p>你可以对朋友说一些激励和鼓励的话，比如：</p>
+<p>1.很高兴看到你已经恢复了健康，并重新进入社会，这真是太棒了！<br>
+2.恢复身体健康并重新投入社会需要很大的勇气和毅力，我非常佩服你。<br>
+3.虽然这段时间可能很辛苦，但是你已经克服了困难，展现出了坚强和勇气。相信你未来的道路会更加美好。<br>
+4.我会一直支持你，如果你需要任何帮助，请告诉我。我们可以一起度过难关，共同迎接未来的挑战。<br>
+5.请记得照顾好自己的身体，不要太勉强自己。同时也要享受生活中美好的事物，让自己每天都感到快乐和满足。</p>
+<p>2023/4/3 15:31:51</p>
+<p>第三方APP对接通联支付时需要申请微信小程序还是微信开放平台才能跳转微信支付？</p>
+<p>2023/4/3 15:31:57</p>
+<p>如果第三方APP需要和通联支付对接微信支付，可以通过申请微信开放平台账号来获取微信支付的权限。在微信开放平台上注册应用后，需要进行相关认证和配置，包括绑定公众号或小程序、设置支付方式等。具体实现方式可以参考微信支付开发文档中关于第三方App与微信支付对接的说明。</p>
+<p>2023/4/3 15:33:20</p>
+<p>那如果只注册了微信开放平台，可以直接通过微信开放平台跳转到微信支付吗？</p>
+<p>2023/4/3 15:33:32</p>
+<p>是的，如果注册了微信开放平台，并且已经完成相关认证和配置，就可以在第三方APP中通过微信开放平台提供的SDK或者API来实现跳转到微信支付进行支付。具体流程如下：</p>
+<p>1.第三方APP发起微信支付请求，并传递相关参数（例如订单号、金额等）到微信开放平台；</p>
+<p>2.微信开放平台收到支付请求后，会向用户展示微信支付页面，用户输入密码确认支付；</p>
+<p>3.支付成功后，微信开放平台会通知第三方APP支付结果，并返回给第三方APP相应的支付结果信息。</p>
+<p>需要注意的是，在使用微信支付时，需要遵守微信支付相关规定和法律法规，确保交易安全和合法性。同时，为了更好地保护用户隐私和数据安全，建议使用微信开放平台提供的安全接口来处理交易过程中涉及到的敏感信息。</p>
+<p>2023/4/3 23:06:49</p>
+<p>讲个睡前的笑话让我高兴入睡</p>
+<p>2023/4/3 23:07:02</p>
+<p>好的！以下是一个简单的笑话：</p>
+<p>有一天，老师问小明：“如果你有 10 块钱，你会给谁呢？” 小明回答：“我会给我的姐姐。” 老师问：“为什么？” 小明回答：“因为我有一个姐姐，她总是给我钱，所以我要报答她！” 老师问：“那如果你有 20 块钱呢？”小明想了想，然后回答：“那我就会给我的爸爸。” 老师又问：“为什么呢？” 小明说：“因为我的爸爸工作很辛苦，他需要钱来养家。” 老师满意地点点头，然后问：“那如果你有 50 块钱呢？”小明顿了顿，然后回答：“那我就会给您啦！因为您教过我这些问题，让我学到这么多知识！”老师听了非常高兴，感到自己的工作有意义。</p>
+<p>2023/4/3 23:08:10</p>
+<p>好冷的笑话</p>
+<p>2023/4/3 23:08:19</p>
+<p>抱歉让您感到失望，我会尝试讲一个更有趣的笑话：</p>
+<p>有一只鸟飞进了一家银行，突然掉在地上不能飞了。工作人员们不知道该怎么办，于是找来了一位兽医。兽医检查了鸟之后说：“这只鸟没事，它只是绝育了！” 工作人员们非常惊讶，他们问道：“绝育？这只鸟是公的还是母的？” 兽医回答：“啊，这我怎么知道呢，我只是确信它现在已经无法孵出金蛋了！”</p>
+<p>2023/4/3 23:08:47</p>
+<p>不好笑</p>
+<p>2023/4/3 23:08:54</p>
+<p>非常抱歉让您感到失望，让我再尝试一个：</p>
+<p>有一天，一只牛走进了一家酒吧。服务员很惊讶，但是还是问道：“你怎么来这里了？” 牛回答：“我听说这里的牛排非常好吃，我想尝一尝！” 服务员有些不确定地说：“不过，你知道吗，要杀了你才能做出那样的菜。” 牛沉默了几秒钟，然后回答：“没关系，放心吧，我会点生菜沙拉。”</p>
+<p>2023/4/3 23:09:25</p>
+<p>还是不好笑</p>
+<p>2023/4/3 23:09:35</p>
+<p>非常抱歉让您感到失望。我再分享一个笑话，希望这次可以让您开心：</p>
+<p>有两个人在海滩上散步，看到一个瓶子被冲上了岸。他们打开瓶子，结果里面跑出来一个精灵，精灵对他们说：“你们俩都可以许一个愿望，但是只能是一个！” 其中一个人立刻说：“好了，我已经决定了，我想去巴黎旅游！” 精灵点了点头，然后就让他消失了。另一个人很失望地问道：“为什么你要去巴黎？我们本来可以一起去的！” 那个人回答：“我知道啊，但是我已经等了这么久，终于有机会去了！”</p>
+<p>2023/4/3 23:10:49</p>
+<p>讲一个非常搞笑的笑话</p>
+<p>2023/4/3 23:10:56</p>
+<p>好的，以下是一个搞笑的笑话：</p>
+<p>一位老年人去看医生，说自己听力不太好。医生让他坐下，然后从另一个房间大声喊了一句：“你能听到我吗？” 老年人回答：“对不起，医生先生，我还没见过你，所以不知道你在哪里。”</p>
+<p>2023/4/5 10:15:22</p>
+<p>今天是清明节，帮我写一首怀念逝去的亲人的抒情诗🙁</p>
+<p>2023/4/5 10:15:30</p>
+<blockquote>
+<p>清明时节哭逝人，<br>
+思念亲人泪盈眶。<br>
+往事重重如梦幻，<br>
+岁月流转难回首。</p>
+</blockquote>
+<blockquote>
+<p>墓前献上鲜花烛，<br>
+心中祈愿伴天堂。<br>
+金风送暖春来早，<br>
+唯有思念永长存。</p>
+</blockquote>
+<p>Translation:</p>
+<blockquote>
+<p>In this season of Qingming, I weep for my loved ones who have passed away,<br>
+Memories flood back and tears fill my eyes.<br>
+The past is like a dream that cannot be relived,<br>
+Time passes by, and looking back becomes difficult.</p>
+</blockquote>
+<blockquote>
+<p>I offer fresh flowers and burning candles at their graves,<br>
+Wishing them happiness in the afterlife.<br>
+The spring breeze brings warmth early,<br>
+But only my longing for them will never fade away.</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[markdown使用教程]]></title>
+        <id>https://zhiyu2011.github.io/5rQ6en7Du/</id>
+        <link href="https://zhiyu2011.github.io/5rQ6en7Du/">
+        </link>
+        <updated>2023-03-05T03:37:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>title: Markdown使用教程<br>
+date: 2019-12-25 14:27:01<br>
+permalink: /pages/ad247c4332211551<br>
+categories:</p>
+<ul>
+<li>技术</li>
+<li>技术文档<br>
+author:<br>
+name: xugaoyi<br>
+link: https://github.com/xugaoyi</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<p>title: Markdown使用教程<br>
+date: 2019-12-25 14:27:01<br>
+permalink: /pages/ad247c4332211551<br>
+categories:</p>
+<ul>
+<li>技术</li>
+<li>技术文档<br>
+author:<br>
+name: xugaoyi<br>
+link: https://github.com/xugaoyi</li>
+</ul>
+<!-- more -->
+<h1 id="markdown使用教程">Markdown使用教程</h1>
+<h2 id="一-markdown">一、Markdown</h2>
+<h3 id="简介">简介</h3>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" alt="logo" loading="lazy"></figure>
+<p><code>Markdown</code> 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
+<!-- more -->
+<h3 id="应用">应用</h3>
+<p>当前许多网站都广泛使用 <code>Markdown</code> 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、知乎等</p>
+<h3 id="编辑器">编辑器</h3>
+<p>推荐使用<code>Typora</code>，官网：<a href="https://typora.io/">https://typora.io/</a></p>
+<h2 id="二-徽章">二、徽章</h2>
+<h4 id="什么是徽章">什么是徽章</h4>
+<p>徽章是一种小巧精美的小图标，一般配有相关文字进行辅助说明，可对数据进行监控，链接跳转等，富有表现力。</p>
+<p>常见于<code>github</code>项目主页，但其不仅出现于 <code>github</code> 项目主页，凡是能够表现图片的地方都可以出现徽章。</p>
+<h4 id="徽章的使用">徽章的使用</h4>
+<ul>
+<li>在<code>markdown</code>中使用</li>
+</ul>
+<pre><code class="language-markdown">格式:
+[![图片文字说明](图片源地址)](超链接地址)  # 即超链接内部嵌套图片
+
+语法：
+[![github](https://img.shields.io/badge/github-xugaoyi-brightgreen.svg)](https://github.com/xugaoyi)
+</code></pre>
+<figure data-type="image" tabindex="2"><a href="https://github.com/xugaoyi"><img src="https://img.shields.io/badge/github-xugaoyi-brightgreen.svg" alt="github" loading="lazy"></a></figure>
+<p>徽章生成网站：<a href="https://shields.io/">https://shields.io/</a></p>
+<p>本文档主要介绍markdown，不对徽章做过多介绍，详细介绍请 <a href="https://segmentfault.com/a/1190000019552597"> 戳我 </a> 了解。</p>
+<h2 id="三-设置目录">三、设置目录</h2>
+<p>设置之后会根据分级标题来自动生成目录。</p>
+<pre><code class="language-markdown">[TOC]
+</code></pre>
+<blockquote>
+<p>注：github暂未支持。</p>
+</blockquote>
+<p>[TOC]</p>
+<p>在github生成TOC的方法：<a href="https://github.com/ekalinin/github-markdown-toc">https://github.com/ekalinin/github-markdown-toc</a></p>
+<p>windows系统需要基于golang实现的工具：https://github.com/ekalinin/github-markdown-toc.go</p>
+<blockquote>
+<p>如果你有GO语言的编译环境，可以尝试自己编译，如果没有，可以直接下载编译好的二进制文件。</p>
+<p>如windows系统64位 下载：gh-md-toc.windows.amd64.tgz （386 是32位，amd64是64位）</p>
+<p>下载解压后，发现没有后缀名无法识别，实际上这是个exe文件，所以只需要暴力地在后面加上.exe就可以开始愉快使用了。</p>
+<p>使用方法：</p>
+<ol>
+<li>首先将.md文档复制到gh-md-toc.exe的根目录下</li>
+<li>在该目录下打开系统命令行，输入命令：gh-md-toc.exe README.MD 生成目录</li>
+<li>把生成的目录复制到.md文件即可。</li>
+</ol>
+</blockquote>
+<p><strong>这是gh-md-toc生成的目录：</strong></p>
+<ul>
+<li><a href="#%E4%B8%80markdown">一、Markdown</a>
+<ul>
+<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
+<li><a href="#%E5%BA%94%E7%94%A8">应用</a></li>
+<li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8">编辑器</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BA%8C%E5%BE%BD%E7%AB%A0">二、徽章</a>
+<ul>
+<li><a href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%BE%BD%E7%AB%A0">什么是徽章</a></li>
+<li><a href="#%E5%BE%BD%E7%AB%A0%E7%9A%84%E4%BD%BF%E7%94%A8">徽章的使用</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%89%E8%AE%BE%E7%BD%AE%E7%9B%AE%E5%BD%95">三、设置目录</a></li>
+<li><a href="#%E5%9B%9B%E6%A0%87%E9%A2%98">四、标题</a></li>
+<li><a href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98">一级标题</a>
+<ul>
+<li><a href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98">二级标题</a>
+<ul>
+<li><a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98">三级标题</a>
+<ul>
+<li><a href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98">四级标题</a>
+<ul>
+<li><a href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98">五级标题</a>
+<ul>
+<li><a href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98">六级标题</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%BA%94%E6%96%87%E6%9C%AC">五、文本</a>
+<ul>
+<li><a href="#%E6%AE%B5%E8%90%BD">段落</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93">字体</a></li>
+<li><a href="#%E5%88%A0%E9%99%A4%E7%BA%BF">删除线</a></li>
+<li><a href="#%E4%B8%8B%E5%88%92%E7%BA%BF">下划线</a></li>
+<li><a href="#%E6%96%87%E5%AD%97%E9%AB%98%E4%BA%AE">文字高亮</a></li>
+<li><a href="#%E5%88%86%E9%9A%94%E7%BA%BF">分隔线</a></li>
+<li><a href="#%E8%84%9A%E6%B3%A8">脚注</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%AD%E5%88%97%E8%A1%A8">六、列表</a>
+<ul>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
+<li><a href="#%E6%8A%98%E5%8F%A0%E5%88%97%E8%A1%A8">折叠列表</a></li>
+<li><a href="#%E5%B8%A6%E5%A4%8D%E9%80%89%E6%A1%86%E5%88%97%E8%A1%A8">带复选框列表</a></li>
+<li><a href="#%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97">列表嵌套</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%83%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8">七、区块引用</a>
+<ul>
+<li><a href="#%E5%8C%BA%E5%9D%97%E5%B5%8C%E5%A5%97">区块嵌套</a></li>
+<li><a href="#%E5%8C%BA%E5%9D%97%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%88%97%E8%A1%A8">区块中使用列表</a></li>
+<li><a href="#%E5%88%97%E8%A1%A8%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8C%BA%E5%9D%97">列表中使用区块</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%AB%E4%BB%A3%E7%A0%81">八、代码</a>
+<ul>
+<li><a href="#%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97">代码区块</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B9%9D%E9%93%BE%E6%8E%A5">九、链接</a>
+<ul>
+<li><a href="#%E5%8F%98%E9%87%8F%E9%93%BE%E6%8E%A5">变量链接</a></li>
+<li><a href="#github%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%86%85%E9%83%A8%E9%93%BE%E6%8E%A5">Github中使用内部链接</a></li>
+<li><a href="#%E9%94%9A%E7%82%B9%E9%93%BE%E6%8E%A5">锚点链接</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8D%81%E5%9B%BE%E7%89%87">十、图片</a>
+<ul>
+<li><a href="#%E5%9B%BE%E7%89%87%E5%AE%BD%E9%AB%98">图片宽高</a></li>
+<li><a href="#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E4%BB%A5%E5%8F%8Agithub%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87">相对路径以及Github中使用图片</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8D%81%E4%B8%80%E8%A1%A8%E6%A0%BC">十一、表格</a></li>
+<li><a href="#%E5%8D%81%E4%BA%8Cemoji%E8%A1%A8%E6%83%85%E5%8C%85">十二、Emoji表情包</a></li>
+<li><a href="#%E5%8D%81%E4%B8%89%E5%85%B6%E4%BB%96%E6%8A%80%E5%B7%A7">十三、其他技巧</a>
+<ul>
+<li><a href="#%E6%94%AF%E6%8C%81%E7%9A%84-html-%E5%85%83%E7%B4%A0">支持的 HTML 元素</a></li>
+<li><a href="#%E8%BD%AC%E4%B9%89">转义</a></li>
+<li><a href="#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">数学公式</a></li>
+<li><a href="#%E5%9B%BE%E8%A1%A8">图表</a></li>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a></li>
+<li><a href="#%E6%97%B6%E5%BA%8F%E5%9B%BE">时序图</a></li>
+<li><a href="#%E7%94%98%E7%89%B9%E5%9B%BE">甘特图</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="四-标题">四、标题</h2>
+<pre><code class="language-markdown"># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<h2 id="五-文本">五、文本</h2>
+<h3 id="段落">段落</h3>
+<p>Markdown 段落没有特殊的格式，直接编写文字，<strong>需要段落缩进时使用2个Tab</strong></p>
+<h3 id="字体">字体</h3>
+<pre><code class="language-markdown">*斜体文本*
+或 _斜体文本_
+**粗体文本**
+或  __粗体文本__
+***粗斜体文本***
+或 ___粗斜体文本___
+</code></pre>
+<p><em>斜体文本</em></p>
+<p><em>斜体文本</em></p>
+<p><strong>粗体文本</strong></p>
+<p><strong>粗体文本</strong></p>
+<p><em><strong>粗斜体文本</strong></em></p>
+<p><em><strong>粗斜体文本</strong></em></p>
+<h3 id="删除线">删除线</h3>
+<p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <strong>~~</strong> 即可，实例如下：</p>
+<pre><code class="language-markdown">~~BAIDU.COM~~
+</code></pre>
+<p><s>BAIDU.COM</s></p>
+<h3 id="下划线">下划线</h3>
+<p>下划线可以通过 HTML 的<code>&lt;u&gt;</code> 标签来实现：</p>
+<pre><code class="language-markdown">&lt;u&gt;带下划线的文本&lt;/u&gt;
+</code></pre>
+<p><u>带下划线的文本</u></p>
+<h3 id="文字高亮">文字高亮</h3>
+<p>文字高亮能使行内部分文字高亮，使用一对反引号。</p>
+<pre><code class="language-markdown">`html` `css` `javascript`
+</code></pre>
+<p><code>html</code> <code>css</code> <code>javascript</code></p>
+<h3 id="分隔线">分隔线</h3>
+<p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<pre><code class="language-markdown">***
+
+*****
+
+- - -
+
+----------
+</code></pre>
+<hr>
+<h3 id="脚注">脚注</h3>
+<p>脚注是对文本的补充说明。</p>
+<pre><code class="language-markdown">[^变量]
+在文档结尾或其他位置給变量赋值：
+[^变量]: 注明框内显示的内容
+
+鼠标移到这里&gt; [^哈喽]
+[^哈喽]: 注明框内显示的内容
+</code></pre>
+<blockquote>
+<p>注：在部分线上预览未支持</p>
+</blockquote>
+<p>鼠标移到这里&gt; <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<h2 id="六-列表">六、列表</h2>
+<h3 id="无序列表">无序列表</h3>
+<p>使用星号<code>*</code>、加号<code>+</code>或是减号<code>-</code>作为列表标记：</p>
+<pre><code class="language-markdown">* 第一项
+* 第二项
+
++ 第一项
++ 第二项
+
+- 第一项
+- 第二项
+</code></pre>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+</ul>
+<h3 id="有序列表">有序列表</h3>
+<p>使用数字并加上<code> .</code> 号来表示</p>
+<pre><code class="language-markdown">1. 第一项
+2. 第二项
+</code></pre>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<h3 id="折叠列表">折叠列表</h3>
+<pre><code class="language-markdown">&lt;details&gt;
+&lt;summary&gt;点我打开关闭折叠&lt;/summary&gt;
+ 折叠内容
+ &lt;ul&gt;
+     &lt;li&gt;1&lt;/li&gt;
+     &lt;li&gt;2&lt;/li&gt;
+     &lt;li&gt;3&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<blockquote>
+<p>注意：&lt;details&gt; 标签内写markdown代码无效，可写html代码，如ul&gt;li、table等</p>
+</blockquote>
+<details>
+<summary>点我打开关闭折叠</summary>
+ 折叠内容
+ <ul>
+     <li>1</li>
+     <li>2</li>
+     <li>3</li>
+ </ul>
+</details>
+<details>
+<summary>包含table的折叠</summary>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">分类</th>
+                <th align="center">例词</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">人称代词-主格</td>
+                <td align="center">I我，you你，he他，she她，they他们， we我们</td>
+            </tr>
+            <tr>
+                <td align="center">人称代词-宾格</td>
+                <td align="center">me我， you你， him他， her她， them他们， us我们</td>
+            </tr>
+            <tr>
+                <td align="center">物主代词</td>
+                <td align="center">my我的， his他的， your你的（your你们的）， their他们的， hers她的</td>
+            </tr>
+            <tr>
+                <td align="center">指示代词</td>
+                <td align="center">this这， that那， these这些， those 那些</td>
+            </tr>
+            <tr>
+                <td align="center">反身代词</td>
+                <td align="center">myself我自己， himself他自己， themselves他们自己， yourself你(们)自己，herself她自己</td>
+            </tr>
+            <tr>
+                <td align="center">疑问代词</td>
+                <td align="center">who谁， what什么， which哪个</td>
+            </tr>
+            <tr>
+                <td align="center">不定代词</td>
+                <td align="center">some一些， many许多， both两个、两个都， any许多</td>
+            </tr>
+            <tr>
+                <td align="center">关系代词</td>
+                <td align="center">which……的物， who……的人， that……的人或物， who谁， that引导定语从句</td>
+            </tr>
+            <tr>
+                <td align="center">相互代词</td>
+                <td align="center">each other 互相， one another互相</td>
+            </tr>
+            <tr>
+                <td align="center">连接代词</td>
+                <td align="center">who,whom,whose,what,which,whatever,whichever,whoever,whomever</td>
+            </tr>
+            <tr>
+                <td align="center">替代词</td>
+                <td align="center">one（单数），ones（复数）</td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+<h3 id="带复选框列表">带复选框列表</h3>
+<pre><code class="language-markdown">* [x] 第一项
+* [ ] 第二项
+* [ ] 第三项
+</code></pre>
+<blockquote>
+<p>注：在部分线上预览未支持</p>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8744759"><label class="task-list-item-label" for="task-item-8744759"> 第一项</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5878902"><label class="task-list-item-label" for="task-item-5878902"> 第二项</label></p>
+</li>
+<li class="task-list-item">
+<p><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3824597"><label class="task-list-item-label" for="task-item-3824597"> 第三项</label></p>
+</li>
+</ul>
+<h3 id="列表嵌套">列表嵌套</h3>
+<pre><code class="language-markdown">1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+       - 第三层嵌套
+</code></pre>
+<ol>
+<li>第一项
+<ul>
+<li>嵌套1</li>
+<li>嵌套2</li>
+</ul>
+</li>
+<li>第二项
+<ul>
+<li>嵌套1
+<ul>
+<li>嵌套2</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="七-区块引用">七、区块引用</h2>
+<p>区块引用是在段落开头使用 <code>&gt;</code>符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
+<pre><code class="language-markdown">&gt; 区块引用
+</code></pre>
+<blockquote>
+<p>区块引用</p>
+<p>Typora中回车键自动延伸区块</p>
+</blockquote>
+<h4 id="区块嵌套">区块嵌套</h4>
+<pre><code class="language-markdown">&gt; 第一层
+&gt; &gt; 第二层
+&gt; &gt; &gt; 第三层
+</code></pre>
+<blockquote>
+<p>第一层</p>
+<blockquote>
+<p>第二层</p>
+<blockquote>
+<p>第三层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h4 id="区块中使用列表">区块中使用列表</h4>
+<pre><code class="language-markdown">&gt; 区块中使用列表
+&gt; 1. 第一项
+&gt; 2. 第二项
+&gt; * 111
+&gt; * 222
+</code></pre>
+<blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>第一项</li>
+<li>第二项
+<ul>
+<li>111</li>
+<li>222</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<h4 id="列表中使用区块">列表中使用区块</h4>
+<pre><code class="language-markdown">* 第一项
+    &gt; 区块
+* 第二项
+</code></pre>
+<ul>
+<li>
+<p>第一项</p>
+<blockquote>
+<p>区块</p>
+<p>区块</p>
+</blockquote>
+</li>
+<li>
+<p>第二项</p>
+</li>
+</ul>
+<h2 id="八-代码">八、代码</h2>
+<p>如果是段落上的一个代码片段可以用反引号把它包起来（<strong>`</strong>），示例：</p>
+<pre><code class="language-markdown">`alert()`
+</code></pre>
+<p><code>alert()</code></p>
+<h3 id="代码区块">代码区块</h3>
+<p>用三个反引号 <strong>```</strong> 包裹一段代码，并指定一种语言（也可以不指定），指定代码语言后会有代码的颜色高亮</p>
+<p>本代码区块为示例说明：</p>
+<pre><code class="language-markdown">​```javascript
+function test() {
+	alert('test')
+}
+​```
+</code></pre>
+<p>效果：</p>
+<pre><code class="language-javascript">function test() {
+	alert('test')
+}
+</code></pre>
+<h2 id="九-链接">九、链接</h2>
+<p>格式：</p>
+<pre><code class="language-markdown">[链接名称](链接地址)
+
+[链接名称](链接地址,可选的alt)
+
+或
+
+&lt;链接地址&gt;
+</code></pre>
+<p>示例：</p>
+<pre><code class="language-markdown">[百度](http://www.baidu.com,'百度')
+</code></pre>
+<p><a href="http://www.baidu.com,'%E7%99%BE%E5%BA%A6'">百度</a></p>
+<p>直接显示链接地址：</p>
+<pre><code class="language-markdown">&lt;http://www.baidu.com&gt;
+</code></pre>
+<p><a href="http://www.baidu.com">http://www.baidu.com</a></p>
+<h3 id="变量链接">变量链接</h3>
+<p>链接可以用变量来代替，文档末尾或其他位置附带变量地址：</p>
+<pre><code class="language-markdown">这个链接用 1 作为网址变量 [Google][1]
+这个链接用 baidu 作为网址变量 [Baidu][baidu]
+
+然后在文档的结尾或其他位置给变量赋值（网址）
+  [1]: http://www.google.com/
+  [baidu]: http://www.baidu.com/
+</code></pre>
+<p>这个链接用 1 作为网址变量 <a href="http://www.google.com">Google</a></p>
+<p>这个链接用 baidu 作为网址变量 <a href="http://www.baidu.com/">Baidu</a></p>
+<h3 id="github仓库中使用内部链接">Github仓库中使用内部链接</h3>
+<pre><code class="language-markdown">可使用相对路径（前提是有该路径下的文件）
+[test](test.md)
+</code></pre>
+<p><a href="./md-img/test.md">test</a></p>
+<h3 id="锚点链接">锚点链接</h3>
+<p>本文件中每一个标题都是一个锚点，和HTML的锚点（<code>#</code>）类似</p>
+<pre><code class="language-markdown">[Markdown](#Markdown)
+</code></pre>
+<blockquote>
+<p>注： github对含有标点符号的标题进行锚点时会忽略掉标点符号，<br>
+本页中，如果这样写则无法跳转：[链接](#九、链接)<br>
+正确写法：[链接](#九链接)</p>
+</blockquote>
+<p><a href="#%E4%B8%80Markdown">Markdown</a></p>
+<p><a href="#%E4%B9%9D%E9%93%BE%E6%8E%A5">链接</a></p>
+<p><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a></p>
+<h2 id="十-图片">十、图片</h2>
+<p>和链接的区别是前面多一个感叹号<code>!</code></p>
+<pre><code class="language-markdown">![图片名](图片链接)
+</code></pre>
+<p>当然，你也可以像链接那样对图片地址使用变量:</p>
+<pre><code class="language-markdown">这里链接用 img 作为图片地址变量
+然后在文档的结尾或其他位置给变量赋值（图片地址）
+![RUNOOB][img]
+[img]: https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png
+</code></pre>
+<figure data-type="image" tabindex="3"><img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" alt="RUNOOB" loading="lazy"></figure>
+<h3 id="图片宽高">图片宽高</h3>
+<p>如下想设置图片宽高，可以使用 <code>&lt;img&gt;</code> 标签。</p>
+<pre><code class="language-html">&lt;img src=&quot;https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png&quot; width=&quot;50px&quot; height=&quot;30px&quot;&gt;
+</code></pre>
+<img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" width="50px" height="30px">
+<h3 id="相对路径以及github中使用图片">相对路径以及Github中使用图片</h3>
+<p>不管是在本地还是在github同一个仓库中，如果图片存在，可以使用<strong>相对路径</strong>。</p>
+<p>相对路径图片：</p>
+<pre><code class="language-markdown">![头像图片](./md-img/test.jpg)
+</code></pre>
+<p>github上如果引用其他github仓库中的图片则要注意地址格式：<code>仓库地址/raw/分支名/图片路径</code> 或 <code>https://raw.githubusercontent.com/用户名/仓库名/分支名/图片路径</code></p>
+<pre><code class="language-markdown">![其他仓库的图片1](https://github.com/xugaoyi/vue-music/raw/master/src/common/image/default.png)
+或
+![其他仓库的图片2](https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png)
+
+</code></pre>
+<figure data-type="image" tabindex="4"><img src="https://github.com/xugaoyi/vue-music/raw/master/src/common/image/default.png" alt="其他仓库的图片" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" alt="其他仓库的图片2" loading="lazy"></figure>
+<h2 id="十一-表格">十一、表格</h2>
+<p>制作表格使用 <code>|</code>来分隔不同的单元格，使用<code>-</code>来分隔表头和其他行。</p>
+<pre><code class="language-markdown">|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">表头</th>
+<th style="text-align:center">表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+<tr>
+<td style="text-align:center">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+</tbody>
+</table>
+<p><strong>对齐方式</strong></p>
+<ul>
+<li><strong>-:</strong> 设置内容和标题栏居右对齐</li>
+<li><strong>:-</strong> 设置内容和标题栏居左对齐</li>
+<li><strong>:-:</strong> 设置内容和标题栏居中对齐</li>
+</ul>
+<pre><code class="language-markdown">| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:right">右对齐</th>
+<th style="text-align:center">居中对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+</tbody>
+</table>
+<h2 id="十二-emoji表情包">十二、Emoji表情包</h2>
+<p>Emoji表情英文名的前后加冒号，Typore上先输入冒号再输入首字母有表情提示</p>
+<pre><code class="language-markdown">:smirk:
+</code></pre>
+<p>💋<br>
+😸🙈🐴<br>
+😏😊😃😄 ☀️</p>
+<p>更多表情名称请查看：<a href="https://www.webfx.com/tools/emoji-cheat-sheet/">表情包清单</a></p>
+<h2 id="十三-其他技巧">十三、其他技巧</h2>
+<h3 id="支持的-html-元素">支持的 HTML 元素</h3>
+<p>不在 Markdown 语法涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
+<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等等 ，如：</p>
+<pre><code class="language-markdown">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑
+</code></pre>
+<p>使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
+<p><b>我是使用b标签的加粗字体</b></p>
+<h3 id="转义">转义</h3>
+<p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用反斜杠转义字符：</p>
+<pre><code class="language-markdown">**未转义星号显示加粗**
+\*\* 转义显示星号 \*\*
+</code></pre>
+<p><strong>未转义星号显示加粗</strong><br>
+** 转义显示星号 **</p>
+<p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<pre><code class="language-markdown">\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+</code></pre>
+<hr>
+<p>*** <strong>以下部分在Github或其他在线预览中暂未支持</strong> ***</p>
+<hr>
+<h3 id="数学公式">数学公式</h3>
+<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
+<pre><code class="language-markdown">$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\end{vmatrix}
+$$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+</code></pre>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi mathvariant="bold">V</mi><mn>1</mn></msub><mo>×</mo><msub><mi mathvariant="bold">V</mi><mn>2</mn></msub><mo>=</mo><mrow><mo fence="true">∣</mo><mtable><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi mathvariant="bold">i</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi mathvariant="bold">j</mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi mathvariant="bold">k</mi></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>X</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>u</mi></mrow></mfrac></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>Y</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>u</mi></mrow></mfrac></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>X</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>v</mi></mrow></mfrac></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>Y</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>v</mi></mrow></mfrac></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>0</mn></mstyle></mtd></mtr></mtable><mo fence="true">∣</mo></mrow></mrow><annotation encoding="application/x-tex">\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\end{vmatrix}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83611em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathbf" style="margin-right:0.01597em;">V</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83611em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathbf" style="margin-right:0.01597em;">V</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:3.6802159999999997em;vertical-align:-1.590108em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.08597em;"><span style="top:-1.05597em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-1.6619700000000002em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.26797em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.87397em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-3.47997em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-4.08597em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.5500299999999998em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.090108em;"><span style="top:-4.250108em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathbf">i</span></span></span></span><span style="top:-3.0099999999999993em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight">u</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.07847em;">X</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-1.769892em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">v</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.07847em;">X</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.590108em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.090108em;"><span style="top:-4.250108em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathbf">j</span></span></span></span><span style="top:-3.0099999999999993em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight">u</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.22222em;">Y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-1.769892em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">v</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.22222em;">Y</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.590108em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.090108em;"><span style="top:-4.250108em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathbf">k</span></span></span></span><span style="top:-3.0099999999999993em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span><span style="top:-1.769892em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.590108em;"><span></span></span></span></span></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.08597em;"><span style="top:-1.05597em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-1.6619700000000002em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.26797em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.87397em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-3.47997em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-4.08597em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.5500299999999998em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
+<h3 id="图表">图表</h3>
+<pre><code class="language-markdown">​```chart
+,Budget,Income,Expenses,Debt
+June,5000,8000,4000,6000
+July,3000,1000,4000,3000
+Aug,5000,7000,6000,3000
+Sep,7000,2000,3000,1000
+Oct,6000,5000,4000,2000
+Nov,4000,3000,5000,
+
+type: pie
+title: Monthly Revenue
+x.title: Amount
+y.title: Month
+y.suffix: $
+​```
+​```mermaid
+sequenceDiagram
+A-&gt;&gt;B: 是否已收到消息？
+B--&gt;&gt;A: 已收到消息
+​```
+</code></pre>
+<blockquote>
+<p>注：在Typora中未支持</p>
+</blockquote>
+<h3 id="流程图">流程图</h3>
+<pre><code class="language-markdown">语法：
+​```mermaid
+graph TD
+A[模块A] --&gt;|A1| B(模块B)
+B --&gt; C{判断条件C}
+C --&gt;|条件C1| D[模块D]
+C --&gt;|条件C2| E[模块E]
+C --&gt;|条件C3| F[模块F]
+​```
+</code></pre>
+<p>流程图相关文章：</p>
+<p><a href="https://www.jianshu.com/p/b421cc723da5">https://www.jianshu.com/p/b421cc723da5</a></p>
+<p><a href="http://www.imooc.com/article/292708">http://www.imooc.com/article/292708</a></p>
+<h3 id="时序图">时序图</h3>
+<pre><code class="language-markdown">​```mermaid
+sequenceDiagram
+A-&gt;&gt;B: 是否已收到消息？
+B--&gt;&gt;A: 已收到消息
+​```
+</code></pre>
+<h3 id="甘特图">甘特图</h3>
+<pre><code class="language-markdown">​```mermaid
+gantt
+title 甘特图
+dateFormat  YYYY-MM-DD
+section 项目A
+任务1           :a1, 2018-06-06, 30d
+任务2     :after a1  , 20d
+section 项目B
+任务3      :2018-06-12  , 12d
+任务4      : 24d
+​```
+</code></pre>
+<p>​																														     									<a href="#markdown%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B">回到顶部</a></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>注明框内显示的内容 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
+</feed>
