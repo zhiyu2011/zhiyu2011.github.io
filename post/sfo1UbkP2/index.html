@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+<meta name="description" content="Welcome to MY BLOG">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:title" content="闫旭亮">
+<meta property="og:description" content="Welcome to MY BLOG">
+
+<meta property="og:image" content="/images/avatar.png">
+
+<meta property="og:url" content="https://2011369.xyz">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="闫旭亮">
+<meta name="twitter:description" content="Welcome to MY BLOG">
+
+<meta name="twitter:image" content="/images/avatar.png">
+
+
+  <meta name="generator" content="Gridea Pro 1.1.1">
+  <title>只需一行代码就可“黑”掉任意网站 | 闫旭亮</title>
+  
+<meta property="og:title" content="只需一行代码就可“黑”掉任意网站" />
+<meta property="og:type" content="article" />
+
+
+<meta name="description" content="实用技巧：只需一行代码，轻轻一点就可以把任意网站变成暗黑模式。">
+<link rel="canonical" href="https://2011369.xyz/post/sfo1UbkP2/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"只需一行代码就可“黑”掉任意网站","url":"https://2011369.xyz/post/sfo1UbkP2/","description":"实用技巧：只需一行代码，轻轻一点就可以把任意网站变成暗黑模式。","datePublished":"2022-11-21T19:48:46+08:00","dateModified":"2026-04-15T13:38:39+08:00","author":{"@type":"Person","name":"闫旭亮"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"闫旭亮"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://2011369.xyz","name":"闫旭亮","position":1},{"@type":"ListItem","item":"https://2011369.xyz/post/sfo1UbkP2/","name":"只需一行代码就可“黑”掉任意网站","position":2}]}</script>
+<meta property="og:title" content="只需一行代码就可“黑”掉任意网站">
+<meta property="og:description" content="实用技巧：只需一行代码，轻轻一点就可以把任意网站变成暗黑模式。">
+<meta property="og:url" content="https://2011369.xyz/post/sfo1UbkP2/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:image" content="/images/avatar.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://2011369.xyz/post/sfo1UbkP2/">
+<meta name="twitter:title" content="只需一行代码就可“黑”掉任意网站">
+<meta name="twitter:description" content="实用技巧：只需一行代码，轻轻一点就可以把任意网站变成暗黑模式。">
+<meta name="twitter:image" content="/images/avatar.png">
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://2011369.xyz" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/theme/万叶吟风.png" alt="闫旭亮" />
+        </a>
+        
+        <a href="https://2011369.xyz" class="site-name-link">闫旭亮</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">博客</a>
+        
+        <a class="nav-item" href="/memos">闪念</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="/links">友链</a>
+        
+        <a class="nav-item" href="/post/about">关于</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    nav.classList.toggle('top-bar__nav--open');
+    if (hamburger) hamburger.classList.toggle('is-active');
+  });
+  nav.querySelectorAll('.nav-item').forEach(function(item){
+    item.addEventListener('click', function(){
+      nav.classList.remove('top-bar__nav--open');
+      if (hamburger) hamburger.classList.remove('is-active');
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<article class="article-container">
+  <header class="article-header">
+    <h1 class="article-title">只需一行代码就可“黑”掉任意网站</h1>
+    <div class="article-meta">
+      
+      <span class="article-meta__item">2022-11-21</span>
+      
+      <span class="article-meta__sep">·</span>
+      <span class="article-meta__item">2 分钟阅读</span>
+      
+    </div>
+    
+    <div class="article-header__tags">
+      
+      <a href="/tag/getting-started/" class="tag-pill tag-pill--sm">学习</a>
+      
+    </div>
+    
+  </header>
+
+  
+
+  <div class="article-content">
+    <p>实用技巧：只需一行代码，轻轻一点就可以把任意网站变成暗黑模式。</p>
+<!-- more -->
+<p>首先我们先做一个实验，在任意网站中，打开浏览器开发者工具(F12)，在<code>Console</code>控制台输入如下代码并回车：</p>
+<pre><code class="language-js">document.documentElement.style.filter='invert(85%) hue-rotate(180deg)'
+</code></pre>
+<p>神奇的事情发生了，当前打开的网站变成了暗黑模式。</p>
+<p>::: details 原理解释</p>
+<ol>
+<li><code>document.documentElement</code> 获取文档对象的根元素，即<code>&lt;html&gt;</code>元素</li>
+<li>给<code>html</code>元素的<code>.style</code>样式添加<code>filter</code>滤镜样式为<code>invert(85%) hue-rotate(180deg)</code></li>
+<li><code>invert()</code> 反转图像。</li>
+<li><code>hue-rotate()</code>色相旋转。</li>
+</ol>
+<p>更多滤镜知识：<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter"><code>filter</code></a>。<br />
+:::</p>
+<p>为了更方便实用，达到轻轻一点就可以对网页施加魔法🎉，</p>
+<p>我们对代码做了一点点🤏🏻改动。（修正了滤镜对图片等元素的影响）</p>
+<pre><code class="language-js">javascript: (function () {  const docStyle = document.documentElement.style;  if (!window.modeIndex) {    window.modeIndex = 0;  }  const styleList = [    '',    'invert(85%) hue-rotate(180deg)',   'invert(100%) hue-rotate(180deg)',  ];  modeIndex = modeIndex &gt;= styleList.length - 1 ? 0 : modeIndex + 1;  docStyle.filter = styleList[modeIndex];  document.body.querySelectorAll('img, picture, video').forEach(el =&gt; el.style.filter = modeIndex ? 'invert(1) hue-rotate(180deg)' : '');})();
+</code></pre>
+<p>然后打开浏览器书签管理器，添加新书签，在网址栏粘贴这段代码并保存：</p>
+<p>以后在任意网站，只需要轻轻一点<code>切换模式</code>书签就可以让它变成85%的暗黑，再点一次就是100%的暗黑，再点一次变回正常模式。</p>
+<p>From link: <a href="https://github.com/xugaoyi">https://github.com/xugaoyi</a></p>
+
+  </div>
+
+  
+  <nav class="post-nav">
+    
+    <a href="/post/_rObls2CQ/" class="post-nav-card post-nav-card--prev">
+      
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">上一篇</span>
+        <span class="post-nav-card__title">搜索引擎使用技巧</span>
+      </div>
+      <span class="post-nav-card__arrow">&larr;</span>
+    </a>
+    
+    
+    <a href="/post/qi-ye-you-xiang/" class="post-nav-card post-nav-card--next">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">下一篇</span>
+        <span class="post-nav-card__title">企业邮箱</span>
+      </div>
+      
+      <div class="post-nav-card__img">
+        <img src="https://img1.baidu.com/it/u=1031746199,3946945515&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG?w=865&amp;h=500" alt="企业邮箱" loading="lazy" />
+      </div>
+      
+      <span class="post-nav-card__arrow">&rarr;</span>
+    </a>
+    
+  </nav>
+
+  
+  
+
+
+  
+    <section class="comment-section">
+  <h2 class="comment-section__title">评论</h2>
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'Ov23lipLNCno1d8r8zy4',
+      clientSecret: 'a86712cf1694deb96dd4a673ce978f25bdf2214f',
+      repo: 'blog-comments',
+      owner: 'zhiyu2011',
+      admin: ['zhiyu2011'],
+      id: location.pathname,
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  </script>
+</section>
+
+  
+
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">博客</a>
+      
+      <a class="footer-nav__link" href="/memos">闪念</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="/links">友链</a>
+      
+      <a class="footer-nav__link" href="/post/about">关于</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 闫旭亮. All rights reserved.</p>
+    </div>
+
+    
+    
+    <div class="footer-custom">
+      Record, share, learn, grow
+    </div>
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>

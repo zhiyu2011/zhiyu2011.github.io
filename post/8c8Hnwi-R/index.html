@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+<meta name="description" content="Welcome to MY BLOG">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:title" content="闫旭亮">
+<meta property="og:description" content="Welcome to MY BLOG">
+
+<meta property="og:image" content="/images/avatar.png">
+
+<meta property="og:url" content="https://2011369.xyz">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="闫旭亮">
+<meta name="twitter:description" content="Welcome to MY BLOG">
+
+<meta name="twitter:image" content="/images/avatar.png">
+
+
+  <meta name="generator" content="Gridea Pro 1.1.1">
+  <title>初学Markdown 简单语法 | 闫旭亮</title>
+  
+<meta property="og:title" content="初学Markdown 简单语法" />
+<meta property="og:type" content="article" />
+
+
+<meta name="description" content="由于查找一些资料，打开了简书，登录了好几次密码错误，只好微信扫码登录，系统提示我是2019年1月注册的账号，至今没有一篇文章。刚好趁着这个机会学习一下markdown写文章。">
+<link rel="canonical" href="https://2011369.xyz/post/8c8Hnwi-R/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"初学Markdown 简单语法","url":"https://2011369.xyz/post/8c8Hnwi-R/","description":"由于查找一些资料，打开了简书，登录了好几次密码错误，只好微信扫码登录，系统提示我是2019年1月注册的账号，至今没有一篇文章。刚好趁着这个机会学习一下markdown写文章。","datePublished":"2022-11-27T14:16:48+08:00","dateModified":"2026-04-15T13:38:39+08:00","author":{"@type":"Person","name":"闫旭亮"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"闫旭亮"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://2011369.xyz","name":"闫旭亮","position":1},{"@type":"ListItem","item":"https://2011369.xyz/post/8c8Hnwi-R/","name":"初学Markdown 简单语法","position":2}]}</script>
+<meta property="og:title" content="初学Markdown 简单语法">
+<meta property="og:description" content="由于查找一些资料，打开了简书，登录了好几次密码错误，只好微信扫码登录，系统提示我是2019年1月注册的账号，至今没有一篇文章。刚好趁着这个机会学习一下markdown写文章。">
+<meta property="og:url" content="https://2011369.xyz/post/8c8Hnwi-R/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:image" content="/images/avatar.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://2011369.xyz/post/8c8Hnwi-R/">
+<meta name="twitter:title" content="初学Markdown 简单语法">
+<meta name="twitter:description" content="由于查找一些资料，打开了简书，登录了好几次密码错误，只好微信扫码登录，系统提示我是2019年1月注册的账号，至今没有一篇文章。刚好趁着这个机会学习一下markdown写文章。">
+<meta name="twitter:image" content="/images/avatar.png">
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://2011369.xyz" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/theme/万叶吟风.png" alt="闫旭亮" />
+        </a>
+        
+        <a href="https://2011369.xyz" class="site-name-link">闫旭亮</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">博客</a>
+        
+        <a class="nav-item" href="/memos">闪念</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="/links">友链</a>
+        
+        <a class="nav-item" href="/post/about">关于</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    nav.classList.toggle('top-bar__nav--open');
+    if (hamburger) hamburger.classList.toggle('is-active');
+  });
+  nav.querySelectorAll('.nav-item').forEach(function(item){
+    item.addEventListener('click', function(){
+      nav.classList.remove('top-bar__nav--open');
+      if (hamburger) hamburger.classList.remove('is-active');
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<article class="article-container">
+  <header class="article-header">
+    <h1 class="article-title">初学Markdown 简单语法</h1>
+    <div class="article-meta">
+      
+      <span class="article-meta__item">2022-11-27</span>
+      
+      <span class="article-meta__sep">·</span>
+      <span class="article-meta__item">3 分钟阅读</span>
+      
+    </div>
+    
+    <div class="article-header__tags">
+      
+      <a href="/tag/getting-started/" class="tag-pill tag-pill--sm">学习</a>
+      
+    </div>
+    
+  </header>
+
+  
+
+  <div class="article-content">
+    <p>由于查找一些资料，打开了简书，登录了好几次密码错误，只好微信扫码登录，系统提示我是2019年1月注册的账号，至今没有一篇文章。刚好趁着这个机会学习一下markdown写文章。</p>
+<!-- more -->
+<p>按着<a href="https://www.jianshu.com/p/q81RER">献给写作者的 Markdown 新手指南</a>这篇官方操作说明，发现现在已经没有了预览功能。但其他部分还是可以参考学习一下的。<br />
+标题</p>
+<p>这是最为常用的格式，在平时常用的的文本编辑器中大多是这样实现的：输入文本、选中文本、设置标题格式。</p>
+<p>而在 Markdown 中，你只需要在文本前面加上#即可，同理、你还可以增加二级标题、三级标题、四级标题、五级标题和六级标题，总共六级，只需要增加#即可，标题字号相应降低。例如：</p>
+<pre><code class="language-#">
+## 二级标题
+
+### 三级标题
+
+#### 四级标题
+
+##### 五级标题
+
+###### 六级标题 ```
+
+注：# 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。#越多，字体也越小。
+
+列表
+
+列表格式也很常用，在 Markdown 中，你只需要在文字前面加上-就可以了，例如：
+
+- 文本1 
+- 文本2 
+- 文本3
+
+如果你希望有序列表，
+
+也可以在文字前面加上1.2.3.就可以了，例如：
+
+1. 文本1
+
+2. 文本2
+
+3. 文本3
+
+注：-、1.和文本之间要保留一个字符的空格。
+&lt;h2 id=&quot;picture&quot;&gt; 链接和图片&lt;/h2&gt;
+
+在 Markdown 中，插入链接不需要其他按钮，你只需要使用 [显示文本](链接地址) 这样的语法即可，例如：
+
+[简书](http://www.jianshu.com)
+
+在 Markdown 中，插入图片不需要其他按钮，你只需要使用![](图片链接地址)这样的语法即可，例如：
+
+![](http://upload-images.jianshu.io/upload_images/259-0ad0d0bfc1c608b6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+注：插入图片的语法和链接的语法很像，只是前面多了一个！。
+
+引用
+
+在我们写作的时候经常需要引用他人的文字，这个时候引用这个格式就很有必要了，在 Markdown 中，你只需要在你希望引用的文字前面加上&gt;就好了，例如：
+
+&gt; 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。
+
+注：&gt;和文本之间要保留一个字符的空格。
+
+最终显示的就是：
+
+一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。
+
+代码引用
+
+需要引用代码时，如果引用的语句只有一段，不分行，可以用 ` 将语句包起来。
+
+如果引用的语句为多行，可以将```置于这段代码的首行和末行。
+
+表格
+
+相关代码：
+
+```|Tables|Are|Cool||-------------|:-------------:|-----:||col3is|right-aligned|$1600||col2is|centered|$12||zebra stripes|are neat|$1|```
+
+显示效果：
+
+TablesAreCool
+
+col 3 isright-aligned$1600
+
+col 2 iscentered$12
+
+zebra stripesare neat$1
+
+相关代码：
+
+dog|bird|cat----|------|----foo|foo|foobar|bar|barbaz|baz|baz
+
+显示效果：
+
+dogbirdcat
+
+foofoofoo
+
+barbarbar
+
+bazbazbaz
+
+&lt;p&gt;&lt;/p&gt;
+
+显示链接中带括号的图片
+
+![][1]
+
+[1]:http://latex.codecogs.com/gif.latex?\prod%20(n_{i})+1
+
+代码如下:
+
+![][1][1]:http://latex.codecogs.com/gif.latex?\prod%20\(n_{i}\)+1
+
+结语
+
+以上几种格式是比较常用的格式，所以我们针对这些语法做了比较详细的说明。除这些之外，Markdown 还有其他语法，如想了解和学习更多，可以参考这篇『Markdown 语法说明』。
+
+强烈建议您现在就立马用 Markdown 写一篇文章吧，体会一下 Markdown 的优雅之处！
+
+作者：简书
+
+链接：https://www.jianshu.com/p/q81RER
+</code></pre>
+
+  </div>
+
+  
+  <nav class="post-nav">
+    
+    <a href="/post/hzg07oDYR/" class="post-nav-card post-nav-card--prev">
+      
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">上一篇</span>
+        <span class="post-nav-card__title">借助Koyeb免费给Freenom域名自动续期</span>
+      </div>
+      <span class="post-nav-card__arrow">&larr;</span>
+    </a>
+    
+    
+    <a href="/post/tf4ITM_8_/" class="post-nav-card post-nav-card--next">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">下一篇</span>
+        <span class="post-nav-card__title">使用 instant.page预加速Gridea博客</span>
+      </div>
+      
+      <span class="post-nav-card__arrow">&rarr;</span>
+    </a>
+    
+  </nav>
+
+  
+  
+
+
+  
+    <section class="comment-section">
+  <h2 class="comment-section__title">评论</h2>
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'Ov23lipLNCno1d8r8zy4',
+      clientSecret: 'a86712cf1694deb96dd4a673ce978f25bdf2214f',
+      repo: 'blog-comments',
+      owner: 'zhiyu2011',
+      admin: ['zhiyu2011'],
+      id: location.pathname,
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  </script>
+</section>
+
+  
+
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">博客</a>
+      
+      <a class="footer-nav__link" href="/memos">闪念</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="/links">友链</a>
+      
+      <a class="footer-nav__link" href="/post/about">关于</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 闫旭亮. All rights reserved.</p>
+    </div>
+
+    
+    
+    <div class="footer-custom">
+      Record, share, learn, grow
+    </div>
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>

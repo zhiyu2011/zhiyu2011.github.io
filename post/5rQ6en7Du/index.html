@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+<meta name="description" content="Welcome to MY BLOG">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:title" content="闫旭亮">
+<meta property="og:description" content="Welcome to MY BLOG">
+
+<meta property="og:image" content="/images/avatar.png">
+
+<meta property="og:url" content="https://2011369.xyz">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="闫旭亮">
+<meta name="twitter:description" content="Welcome to MY BLOG">
+
+<meta name="twitter:image" content="/images/avatar.png">
+
+
+  <meta name="generator" content="Gridea Pro 1.1.1">
+  <title>markdown使用教程 | 闫旭亮</title>
+  
+<meta property="og:title" content="markdown使用教程" />
+<meta property="og:type" content="article" />
+
+
+<meta name="description" content="title: Markdown使用教程 date: 2019-12-25 14:27:01 permalink: /pages/ad247c4332211551 categories: 技术 技术文档 author: name: xugaoyi link: https://github.com/xugaoyi">
+<link rel="canonical" href="https://2011369.xyz/post/5rQ6en7Du/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"markdown使用教程","url":"https://2011369.xyz/post/5rQ6en7Du/","description":"title: Markdown使用教程 date: 2019-12-25 14:27:01 permalink: /pages/ad247c4332211551 categories: 技术 技术文档 author: name: xugaoyi link: https://github.com/xugaoyi","datePublished":"2023-03-05T11:37:12+08:00","dateModified":"2026-04-15T13:38:38+08:00","author":{"@type":"Person","name":"闫旭亮"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"闫旭亮"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://2011369.xyz","name":"闫旭亮","position":1},{"@type":"ListItem","item":"https://2011369.xyz/post/5rQ6en7Du/","name":"markdown使用教程","position":2}]}</script>
+<meta property="og:title" content="markdown使用教程">
+<meta property="og:description" content="title: Markdown使用教程 date: 2019-12-25 14:27:01 permalink: /pages/ad247c4332211551 categories: 技术 技术文档 author: name: xugaoyi link: https://github.com/xugaoyi">
+<meta property="og:url" content="https://2011369.xyz/post/5rQ6en7Du/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:image" content="/images/avatar.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://2011369.xyz/post/5rQ6en7Du/">
+<meta name="twitter:title" content="markdown使用教程">
+<meta name="twitter:description" content="title: Markdown使用教程 date: 2019-12-25 14:27:01 permalink: /pages/ad247c4332211551 categories: 技术 技术文档 author: name: xugaoyi link: https://github.com/xugaoyi">
+<meta name="twitter:image" content="/images/avatar.png">
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://2011369.xyz" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/theme/万叶吟风.png" alt="闫旭亮" />
+        </a>
+        
+        <a href="https://2011369.xyz" class="site-name-link">闫旭亮</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">博客</a>
+        
+        <a class="nav-item" href="/memos">闪念</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="/links">友链</a>
+        
+        <a class="nav-item" href="/post/about">关于</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    nav.classList.toggle('top-bar__nav--open');
+    if (hamburger) hamburger.classList.toggle('is-active');
+  });
+  nav.querySelectorAll('.nav-item').forEach(function(item){
+    item.addEventListener('click', function(){
+      nav.classList.remove('top-bar__nav--open');
+      if (hamburger) hamburger.classList.remove('is-active');
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<article class="article-container">
+  <header class="article-header">
+    <h1 class="article-title">markdown使用教程</h1>
+    <div class="article-meta">
+      
+      <span class="article-meta__item">2023-03-05</span>
+      
+      <span class="article-meta__sep">·</span>
+      <span class="article-meta__item">24 分钟阅读</span>
+      
+    </div>
+    
+  </header>
+
+  
+
+  <div class="article-content">
+    <p>title: Markdown使用教程<br />
+date: 2019-12-25 14:27:01<br />
+permalink: /pages/ad247c4332211551<br />
+categories:</p>
+<ul>
+<li>技术</li>
+<li>技术文档<br />
+author:<br />
+name: xugaoyi<br />
+link: <a href="https://github.com/xugaoyi">https://github.com/xugaoyi</a></li>
+</ul>
+<!-- more -->
+<h1 id="markdown">Markdown使用教程</h1>
+<h2 id="markdown-1">一、Markdown</h2>
+<h3 id="heading">简介</h3>
+<p><img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" alt="logo" /></p>
+<p><code>Markdown</code> 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
+<!-- more -->
+<h3 id="heading-1">应用</h3>
+<p>当前许多网站都广泛使用 <code>Markdown</code> 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、知乎等</p>
+<h3 id="heading-2">编辑器</h3>
+<p>推荐使用<code>Typora</code>，官网：<a href="https://typora.io/">https://typora.io/</a></p>
+<h2 id="heading-3">二、徽章</h2>
+<h4 id="heading-4">什么是徽章</h4>
+<p>徽章是一种小巧精美的小图标，一般配有相关文字进行辅助说明，可对数据进行监控，链接跳转等，富有表现力。</p>
+<p>常见于<code>github</code>项目主页，但其不仅出现于 <code>github</code> 项目主页，凡是能够表现图片的地方都可以出现徽章。</p>
+<h4 id="heading-5">徽章的使用</h4>
+<ul>
+<li>在<code>markdown</code>中使用</li>
+</ul>
+<pre><code class="language-markdown">格式:
+[![图片文字说明](图片源地址)](超链接地址)  # 即超链接内部嵌套图片
+
+语法：
+[![github](https://img.shields.io/badge/github-xugaoyi-brightgreen.svg)](https://github.com/xugaoyi)
+</code></pre>
+<p><a href="https://github.com/xugaoyi"><img src="https://img.shields.io/badge/github-xugaoyi-brightgreen.svg" alt="github" /></a></p>
+<p>徽章生成网站：<a href="https://shields.io/">https://shields.io/</a></p>
+<p>本文档主要介绍markdown，不对徽章做过多介绍，详细介绍请 <a href="https://segmentfault.com/a/1190000019552597"> 戳我 </a> 了解。</p>
+<h2 id="heading-6">三、设置目录</h2>
+<p>设置之后会根据分级标题来自动生成目录。</p>
+<pre><code class="language-markdown">[TOC]
+</code></pre>
+<blockquote>
+<p>注：github暂未支持。</p>
+</blockquote>
+<p>[TOC]</p>
+<p>在github生成TOC的方法：<a href="https://github.com/ekalinin/github-markdown-toc">https://github.com/ekalinin/github-markdown-toc</a></p>
+<p>windows系统需要基于golang实现的工具：https://github.com/ekalinin/github-markdown-toc.go</p>
+<blockquote>
+<p>如果你有GO语言的编译环境，可以尝试自己编译，如果没有，可以直接下载编译好的二进制文件。</p>
+<p>如windows系统64位 下载：gh-md-toc.windows.amd64.tgz （386 是32位，amd64是64位）</p>
+<p>下载解压后，发现没有后缀名无法识别，实际上这是个exe文件，所以只需要暴力地在后面加上.exe就可以开始愉快使用了。</p>
+<p>使用方法：</p>
+<ol>
+<li>首先将.md文档复制到gh-md-toc.exe的根目录下</li>
+<li>在该目录下打开系统命令行，输入命令：gh-md-toc.exe README.MD 生成目录</li>
+<li>把生成的目录复制到.md文件即可。</li>
+</ol>
+</blockquote>
+<p><strong>这是gh-md-toc生成的目录：</strong></p>
+<ul>
+<li><a href="#%E4%B8%80markdown">一、Markdown</a>
+<ul>
+<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
+<li><a href="#%E5%BA%94%E7%94%A8">应用</a></li>
+<li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8">编辑器</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BA%8C%E5%BE%BD%E7%AB%A0">二、徽章</a>
+<ul>
+<li><a href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%BE%BD%E7%AB%A0">什么是徽章</a></li>
+<li><a href="#%E5%BE%BD%E7%AB%A0%E7%9A%84%E4%BD%BF%E7%94%A8">徽章的使用</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%89%E8%AE%BE%E7%BD%AE%E7%9B%AE%E5%BD%95">三、设置目录</a></li>
+<li><a href="#%E5%9B%9B%E6%A0%87%E9%A2%98">四、标题</a></li>
+<li><a href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98">一级标题</a>
+<ul>
+<li><a href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98">二级标题</a>
+<ul>
+<li><a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98">三级标题</a>
+<ul>
+<li><a href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98">四级标题</a>
+<ul>
+<li><a href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98">五级标题</a>
+<ul>
+<li><a href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98">六级标题</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%BA%94%E6%96%87%E6%9C%AC">五、文本</a>
+<ul>
+<li><a href="#%E6%AE%B5%E8%90%BD">段落</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93">字体</a></li>
+<li><a href="#%E5%88%A0%E9%99%A4%E7%BA%BF">删除线</a></li>
+<li><a href="#%E4%B8%8B%E5%88%92%E7%BA%BF">下划线</a></li>
+<li><a href="#%E6%96%87%E5%AD%97%E9%AB%98%E4%BA%AE">文字高亮</a></li>
+<li><a href="#%E5%88%86%E9%9A%94%E7%BA%BF">分隔线</a></li>
+<li><a href="#%E8%84%9A%E6%B3%A8">脚注</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%AD%E5%88%97%E8%A1%A8">六、列表</a>
+<ul>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a></li>
+<li><a href="#%E6%8A%98%E5%8F%A0%E5%88%97%E8%A1%A8">折叠列表</a></li>
+<li><a href="#%E5%B8%A6%E5%A4%8D%E9%80%89%E6%A1%86%E5%88%97%E8%A1%A8">带复选框列表</a></li>
+<li><a href="#%E5%88%97%E8%A1%A8%E5%B5%8C%E5%A5%97">列表嵌套</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B8%83%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8">七、区块引用</a>
+<ul>
+<li><a href="#%E5%8C%BA%E5%9D%97%E5%B5%8C%E5%A5%97">区块嵌套</a></li>
+<li><a href="#%E5%8C%BA%E5%9D%97%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%88%97%E8%A1%A8">区块中使用列表</a></li>
+<li><a href="#%E5%88%97%E8%A1%A8%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8C%BA%E5%9D%97">列表中使用区块</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%AB%E4%BB%A3%E7%A0%81">八、代码</a>
+<ul>
+<li><a href="#%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97">代码区块</a></li>
+</ul>
+</li>
+<li><a href="#%E4%B9%9D%E9%93%BE%E6%8E%A5">九、链接</a>
+<ul>
+<li><a href="#%E5%8F%98%E9%87%8F%E9%93%BE%E6%8E%A5">变量链接</a></li>
+<li><a href="#github%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%86%85%E9%83%A8%E9%93%BE%E6%8E%A5">Github中使用内部链接</a></li>
+<li><a href="#%E9%94%9A%E7%82%B9%E9%93%BE%E6%8E%A5">锚点链接</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8D%81%E5%9B%BE%E7%89%87">十、图片</a>
+<ul>
+<li><a href="#%E5%9B%BE%E7%89%87%E5%AE%BD%E9%AB%98">图片宽高</a></li>
+<li><a href="#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E4%BB%A5%E5%8F%8Agithub%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87">相对路径以及Github中使用图片</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8D%81%E4%B8%80%E8%A1%A8%E6%A0%BC">十一、表格</a></li>
+<li><a href="#%E5%8D%81%E4%BA%8Cemoji%E8%A1%A8%E6%83%85%E5%8C%85">十二、Emoji表情包</a></li>
+<li><a href="#%E5%8D%81%E4%B8%89%E5%85%B6%E4%BB%96%E6%8A%80%E5%B7%A7">十三、其他技巧</a>
+<ul>
+<li><a href="#%E6%94%AF%E6%8C%81%E7%9A%84-html-%E5%85%83%E7%B4%A0">支持的 HTML 元素</a></li>
+<li><a href="#%E8%BD%AC%E4%B9%89">转义</a></li>
+<li><a href="#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">数学公式</a></li>
+<li><a href="#%E5%9B%BE%E8%A1%A8">图表</a></li>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a></li>
+<li><a href="#%E6%97%B6%E5%BA%8F%E5%9B%BE">时序图</a></li>
+<li><a href="#%E7%94%98%E7%89%B9%E5%9B%BE">甘特图</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="heading-7">四、标题</h2>
+<pre><code class="language-markdown"># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+<h1 id="heading-8">一级标题</h1>
+<h2 id="heading-9">二级标题</h2>
+<h3 id="heading-10">三级标题</h3>
+<h4 id="heading-11">四级标题</h4>
+<h5 id="heading-12">五级标题</h5>
+<h6 id="heading-13">六级标题</h6>
+<h2 id="heading-14">五、文本</h2>
+<h3 id="heading-15">段落</h3>
+<p>Markdown 段落没有特殊的格式，直接编写文字，<strong>需要段落缩进时使用2个Tab</strong></p>
+<h3 id="heading-16">字体</h3>
+<pre><code class="language-markdown">*斜体文本*
+或 _斜体文本_
+**粗体文本**
+或  __粗体文本__
+***粗斜体文本***
+或 ___粗斜体文本___
+</code></pre>
+<p><em>斜体文本</em></p>
+<p><em>斜体文本</em></p>
+<p><strong>粗体文本</strong></p>
+<p><strong>粗体文本</strong></p>
+<p><em><strong>粗斜体文本</strong></em></p>
+<p><em><strong>粗斜体文本</strong></em></p>
+<h3 id="heading-17">删除线</h3>
+<p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <strong>~~</strong> 即可，实例如下：</p>
+<pre><code class="language-markdown">~~BAIDU.COM~~
+</code></pre>
+<p><del>BAIDU.COM</del></p>
+<h3 id="heading-18">下划线</h3>
+<p>下划线可以通过 HTML 的<code>&lt;u&gt;</code> 标签来实现：</p>
+<pre><code class="language-markdown">&lt;u&gt;带下划线的文本&lt;/u&gt;
+</code></pre>
+<p><u>带下划线的文本</u></p>
+<h3 id="heading-19">文字高亮</h3>
+<p>文字高亮能使行内部分文字高亮，使用一对反引号。</p>
+<pre><code class="language-markdown">`html` `css` `javascript`
+</code></pre>
+<p><code>html</code> <code>css</code> <code>javascript</code></p>
+<h3 id="heading-20">分隔线</h3>
+<p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<pre><code class="language-markdown">***
+
+*****
+
+- - -
+
+----------
+</code></pre>
+<hr />
+<h3 id="heading-21">脚注</h3>
+<p>脚注是对文本的补充说明。</p>
+<pre><code class="language-markdown">[^变量]
+在文档结尾或其他位置給变量赋值：
+[^变量]: 注明框内显示的内容
+
+鼠标移到这里&gt; [^哈喽]
+[^哈喽]: 注明框内显示的内容
+</code></pre>
+<blockquote>
+<p>注：在部分线上预览未支持</p>
+</blockquote>
+<p>鼠标移到这里&gt; <a href="%E6%B3%A8%E6%98%8E%E6%A1%86%E5%86%85%E6%98%BE%E7%A4%BA%E7%9A%84%E5%86%85%E5%AE%B9">^哈喽</a></p>
+<h2 id="heading-22">六、列表</h2>
+<h3 id="heading-23">无序列表</h3>
+<p>使用星号<code>*</code>、加号<code>+</code>或是减号<code>-</code>作为列表标记：</p>
+<pre><code class="language-markdown">* 第一项
+* 第二项
+
++ 第一项
++ 第二项
+
+- 第一项
+- 第二项
+</code></pre>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+</ul>
+<h3 id="heading-24">有序列表</h3>
+<p>使用数字并加上<code> .</code> 号来表示</p>
+<pre><code class="language-markdown">1. 第一项
+2. 第二项
+</code></pre>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<h3 id="heading-25">折叠列表</h3>
+<pre><code class="language-markdown">&lt;details&gt;
+&lt;summary&gt;点我打开关闭折叠&lt;/summary&gt;
+ 折叠内容
+ &lt;ul&gt;
+     &lt;li&gt;1&lt;/li&gt;
+     &lt;li&gt;2&lt;/li&gt;
+     &lt;li&gt;3&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<blockquote>
+<p>注意：&lt;details&gt; 标签内写markdown代码无效，可写html代码，如ul&gt;li、table等</p>
+</blockquote>
+<details>
+<summary>点我打开关闭折叠</summary>
+ 折叠内容
+ <ul>
+     <li>1</li>
+     <li>2</li>
+     <li>3</li>
+ </ul>
+</details>
+<details>
+<summary>包含table的折叠</summary>
+    <table>
+        <thead>
+            <tr>
+                <th align="center">分类</th>
+                <th align="center">例词</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">人称代词-主格</td>
+                <td align="center">I我，you你，he他，she她，they他们， we我们</td>
+            </tr>
+            <tr>
+                <td align="center">人称代词-宾格</td>
+                <td align="center">me我， you你， him他， her她， them他们， us我们</td>
+            </tr>
+            <tr>
+                <td align="center">物主代词</td>
+                <td align="center">my我的， his他的， your你的（your你们的）， their他们的， hers她的</td>
+            </tr>
+            <tr>
+                <td align="center">指示代词</td>
+                <td align="center">this这， that那， these这些， those 那些</td>
+            </tr>
+            <tr>
+                <td align="center">反身代词</td>
+                <td align="center">myself我自己， himself他自己， themselves他们自己， yourself你(们)自己，herself她自己</td>
+            </tr>
+            <tr>
+                <td align="center">疑问代词</td>
+                <td align="center">who谁， what什么， which哪个</td>
+            </tr>
+            <tr>
+                <td align="center">不定代词</td>
+                <td align="center">some一些， many许多， both两个、两个都， any许多</td>
+            </tr>
+            <tr>
+                <td align="center">关系代词</td>
+                <td align="center">which……的物， who……的人， that……的人或物， who谁， that引导定语从句</td>
+            </tr>
+            <tr>
+                <td align="center">相互代词</td>
+                <td align="center">each other 互相， one another互相</td>
+            </tr>
+            <tr>
+                <td align="center">连接代词</td>
+                <td align="center">who,whom,whose,what,which,whatever,whichever,whoever,whomever</td>
+            </tr>
+            <tr>
+                <td align="center">替代词</td>
+                <td align="center">one（单数），ones（复数）</td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+<h3 id="heading-26">带复选框列表</h3>
+<pre><code class="language-markdown">* [x] 第一项
+* [ ] 第二项
+* [ ] 第三项
+</code></pre>
+<blockquote>
+<p>注：在部分线上预览未支持</p>
+</blockquote>
+<ul>
+<li>
+<p><input checked="" disabled="" type="checkbox" /> 第一项</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox" /> 第二项</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox" /> 第三项</p>
+</li>
+</ul>
+<h3 id="heading-27">列表嵌套</h3>
+<pre><code class="language-markdown">1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+       - 第三层嵌套
+</code></pre>
+<ol>
+<li>第一项
+<ul>
+<li>嵌套1</li>
+<li>嵌套2</li>
+</ul>
+</li>
+<li>第二项<br />
+- 嵌套1<br />
+- 嵌套2</li>
+</ol>
+<h2 id="heading-28">七、区块引用</h2>
+<p>区块引用是在段落开头使用 <code>&gt;</code>符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
+<pre><code class="language-markdown">&gt; 区块引用
+</code></pre>
+<blockquote>
+<p>区块引用</p>
+<p>Typora中回车键自动延伸区块</p>
+</blockquote>
+<h4 id="heading-29">区块嵌套</h4>
+<pre><code class="language-markdown">&gt; 第一层
+&gt; &gt; 第二层
+&gt; &gt; &gt; 第三层
+</code></pre>
+<blockquote>
+<p>第一层</p>
+<blockquote>
+<p>第二层</p>
+<blockquote>
+<p>第三层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h4 id="heading-30">区块中使用列表</h4>
+<pre><code class="language-markdown">&gt; 区块中使用列表
+&gt; 1. 第一项
+&gt; 2. 第二项
+&gt; * 111
+&gt; * 222
+</code></pre>
+<blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>第一项</li>
+<li>第二项
+<ul>
+<li>111</li>
+<li>222</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<h4 id="heading-31">列表中使用区块</h4>
+<pre><code class="language-markdown">* 第一项
+    &gt; 区块
+* 第二项
+</code></pre>
+<ul>
+<li>
+<p>第一项</p>
+<blockquote>
+<p>区块</p>
+<p>区块</p>
+</blockquote>
+</li>
+<li>
+<p>第二项</p>
+</li>
+</ul>
+<h2 id="heading-32">八、代码</h2>
+<p>如果是段落上的一个代码片段可以用反引号把它包起来（<strong>`</strong>），示例：</p>
+<pre><code class="language-markdown">`alert()`
+</code></pre>
+<p><code>alert()</code></p>
+<h3 id="heading-33">代码区块</h3>
+<p>用三个反引号 <strong>```</strong> 包裹一段代码，并指定一种语言（也可以不指定），指定代码语言后会有代码的颜色高亮</p>
+<p>本代码区块为示例说明：</p>
+<pre><code class="language-markdown">​```javascript
+function test() {
+	alert('test')
+}
+​```
+</code></pre>
+<p>效果：</p>
+<pre><code class="language-javascript">function test() {
+	alert('test')
+}
+</code></pre>
+<h2 id="heading-34">九、链接</h2>
+<p>格式：</p>
+<pre><code class="language-markdown">[链接名称](链接地址)
+
+[链接名称](链接地址,可选的alt)
+
+或
+
+&lt;链接地址&gt;
+</code></pre>
+<p>示例：</p>
+<pre><code class="language-markdown">[百度](http://www.baidu.com,'百度')
+</code></pre>
+<p><a href="http://www.baidu.com,'%E7%99%BE%E5%BA%A6'">百度</a></p>
+<p>直接显示链接地址：</p>
+<pre><code class="language-markdown">&lt;http://www.baidu.com&gt;
+</code></pre>
+<p><a href="http://www.baidu.com">http://www.baidu.com</a></p>
+<h3 id="heading-35">变量链接</h3>
+<p>链接可以用变量来代替，文档末尾或其他位置附带变量地址：</p>
+<pre><code class="language-markdown">这个链接用 1 作为网址变量 [Google][1]
+这个链接用 baidu 作为网址变量 [Baidu][baidu]
+
+然后在文档的结尾或其他位置给变量赋值（网址）
+  [1]: http://www.google.com/
+  [baidu]: http://www.baidu.com/
+</code></pre>
+<p>这个链接用 1 作为网址变量 <a href="http://www.google.com">Google</a></p>
+<p>这个链接用 baidu 作为网址变量 <a href="http://www.baidu.com/">Baidu</a></p>
+<h3 id="github">Github仓库中使用内部链接</h3>
+<pre><code class="language-markdown">可使用相对路径（前提是有该路径下的文件）
+[test](test.md)
+</code></pre>
+<p><a href="./md-img/test.md">test</a></p>
+<h3 id="heading-36">锚点链接</h3>
+<p>本文件中每一个标题都是一个锚点，和HTML的锚点（<code>#</code>）类似</p>
+<pre><code class="language-markdown">[Markdown](#Markdown)
+</code></pre>
+<blockquote>
+<p>注： github对含有标点符号的标题进行锚点时会忽略掉标点符号，<br />
+本页中，如果这样写则无法跳转：[链接](#九、链接)<br />
+正确写法：[链接](#九链接)</p>
+</blockquote>
+<p><a href="#%E4%B8%80Markdown">Markdown</a></p>
+<p><a href="#%E4%B9%9D%E9%93%BE%E6%8E%A5">链接</a></p>
+<p><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a></p>
+<h2 id="heading-37">十、图片</h2>
+<p>和链接的区别是前面多一个感叹号<code>!</code></p>
+<pre><code class="language-markdown">![图片名](图片链接)
+</code></pre>
+<p>当然，你也可以像链接那样对图片地址使用变量:</p>
+<pre><code class="language-markdown">这里链接用 img 作为图片地址变量
+然后在文档的结尾或其他位置给变量赋值（图片地址）
+![RUNOOB][img]
+[img]: https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png
+</code></pre>
+<p><img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" alt="RUNOOB" /></p>
+<h3 id="heading-38">图片宽高</h3>
+<p>如下想设置图片宽高，可以使用 <code>&lt;img&gt;</code> 标签。</p>
+<pre><code class="language-html">&lt;img src=&quot;https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png&quot; width=&quot;50px&quot; height=&quot;30px&quot;&gt;
+</code></pre>
+<img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" width="50px" height="30px">
+<h3 id="github-1">相对路径以及Github中使用图片</h3>
+<p>不管是在本地还是在github同一个仓库中，如果图片存在，可以使用<strong>相对路径</strong>。</p>
+<p>相对路径图片：</p>
+<pre><code class="language-markdown">![头像图片](./md-img/test.jpg)
+</code></pre>
+<p>github上如果引用其他github仓库中的图片则要注意地址格式：<code>仓库地址/raw/分支名/图片路径</code> 或 <code>https://raw.githubusercontent.com/用户名/仓库名/分支名/图片路径</code></p>
+<pre><code class="language-markdown">![其他仓库的图片1](https://github.com/xugaoyi/vue-music/raw/master/src/common/image/default.png)
+或
+![其他仓库的图片2](https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png)
+
+</code></pre>
+<p><img src="https://github.com/xugaoyi/vue-music/raw/master/src/common/image/default.png" alt="其他仓库的图片" /></p>
+<p><img src="https://raw.githubusercontent.com/xugaoyi/image_store/master/blog/md_logo.png" alt="其他仓库的图片2" /></p>
+<h2 id="heading-39">十一、表格</h2>
+<p>制作表格使用 <code>|</code>来分隔不同的单元格，使用<code>-</code>来分隔表头和其他行。</p>
+<pre><code class="language-markdown">|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="center">表头</th>
+<th align="center">表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody>
+</table>
+<p><strong>对齐方式</strong></p>
+<ul>
+<li><strong>-:</strong> 设置内容和标题栏居右对齐</li>
+<li><strong>:-</strong> 设置内容和标题栏居左对齐</li>
+<li><strong>:-:</strong> 设置内容和标题栏居中对齐</li>
+</ul>
+<pre><code class="language-markdown">| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody>
+</table>
+<h2 id="emoji">十二、Emoji表情包</h2>
+<p>Emoji表情英文名的前后加冒号，Typore上先输入冒号再输入首字母有表情提示</p>
+<pre><code class="language-markdown">:smirk:
+</code></pre>
+<p>:kiss:<br />
+:smile_cat::see_no_evil::horse:<br />
+:smirk::blush::smiley::smile: :sunny:</p>
+<p>更多表情名称请查看：<a href="https://www.webfx.com/tools/emoji-cheat-sheet/">表情包清单</a></p>
+<h2 id="heading-40">十三、其他技巧</h2>
+<h3 id="-html-">支持的 HTML 元素</h3>
+<p>不在 Markdown 语法涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
+<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等等 ，如：</p>
+<pre><code class="language-markdown">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑
+</code></pre>
+<p>使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
+<p><b>我是使用b标签的加粗字体</b></p>
+<h3 id="heading-41">转义</h3>
+<p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用反斜杠转义字符：</p>
+<pre><code class="language-markdown">**未转义星号显示加粗**
+\*\* 转义显示星号 \*\*
+</code></pre>
+<p><strong>未转义星号显示加粗</strong><br />
+** 转义显示星号 **</p>
+<p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<pre><code class="language-markdown">\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+</code></pre>
+<hr />
+<p>*** <strong>以下部分在Github或其他在线预览中暂未支持</strong> ***</p>
+<hr />
+<h3 id="heading-42">数学公式</h3>
+<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
+<pre><code class="language-markdown">$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\end{vmatrix}
+$$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+</code></pre>
+<p>$$<br />
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br />
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br />
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br />
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br />
+\end{vmatrix}<br />
+$$</p>
+<h3 id="heading-43">图表</h3>
+<pre><code class="language-markdown">​```chart
+,Budget,Income,Expenses,Debt
+June,5000,8000,4000,6000
+July,3000,1000,4000,3000
+Aug,5000,7000,6000,3000
+Sep,7000,2000,3000,1000
+Oct,6000,5000,4000,2000
+Nov,4000,3000,5000,
+
+type: pie
+title: Monthly Revenue
+x.title: Amount
+y.title: Month
+y.suffix: $
+​```
+​```mermaid
+sequenceDiagram
+A-&gt;&gt;B: 是否已收到消息？
+B--&gt;&gt;A: 已收到消息
+​```
+</code></pre>
+<blockquote>
+<p>注：在Typora中未支持</p>
+</blockquote>
+<h3 id="heading-44">流程图</h3>
+<pre><code class="language-markdown">语法：
+​```mermaid
+graph TD
+A[模块A] --&gt;|A1| B(模块B)
+B --&gt; C{判断条件C}
+C --&gt;|条件C1| D[模块D]
+C --&gt;|条件C2| E[模块E]
+C --&gt;|条件C3| F[模块F]
+​```
+</code></pre>
+<p>流程图相关文章：</p>
+<p><a href="https://www.jianshu.com/p/b421cc723da5">https://www.jianshu.com/p/b421cc723da5</a></p>
+<p><a href="http://www.imooc.com/article/292708">http://www.imooc.com/article/292708</a></p>
+<h3 id="heading-45">时序图</h3>
+<pre><code class="language-markdown">​```mermaid
+sequenceDiagram
+A-&gt;&gt;B: 是否已收到消息？
+B--&gt;&gt;A: 已收到消息
+​```
+</code></pre>
+<h3 id="heading-46">甘特图</h3>
+<pre><code class="language-markdown">​```mermaid
+gantt
+title 甘特图
+dateFormat  YYYY-MM-DD
+section 项目A
+任务1           :a1, 2018-06-06, 30d
+任务2     :after a1  , 20d
+section 项目B
+任务3      :2018-06-12  , 12d
+任务4      : 24d
+​```
+</code></pre>
+<p>​																														     									<a href="#markdown%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B">回到顶部</a></p>
+
+  </div>
+
+  
+  <nav class="post-nav">
+    
+    <a href="/post/dyQ1rG7tx/" class="post-nav-card post-nav-card--prev">
+      
+      <div class="post-nav-card__img">
+        <img src="https://p1.itc.cn/q_70/images01/20210907/dc62bcae94744590b4d0e635c7ef1fc1.png" alt="聊聊人工智能" loading="lazy" />
+      </div>
+      
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">上一篇</span>
+        <span class="post-nav-card__title">聊聊人工智能</span>
+      </div>
+      <span class="post-nav-card__arrow">&larr;</span>
+    </a>
+    
+    
+    <a href="/post/ORwiNk_8z/" class="post-nav-card post-nav-card--next">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">下一篇</span>
+        <span class="post-nav-card__title">天问物管云——报事管理培训</span>
+      </div>
+      
+      <span class="post-nav-card__arrow">&rarr;</span>
+    </a>
+    
+  </nav>
+
+  
+  
+
+
+  
+    <section class="comment-section">
+  <h2 class="comment-section__title">评论</h2>
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'Ov23lipLNCno1d8r8zy4',
+      clientSecret: 'a86712cf1694deb96dd4a673ce978f25bdf2214f',
+      repo: 'blog-comments',
+      owner: 'zhiyu2011',
+      admin: ['zhiyu2011'],
+      id: location.pathname,
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  </script>
+</section>
+
+  
+
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">博客</a>
+      
+      <a class="footer-nav__link" href="/memos">闪念</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="/links">友链</a>
+      
+      <a class="footer-nav__link" href="/post/about">关于</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 闫旭亮. All rights reserved.</p>
+    </div>
+
+    
+    
+    <div class="footer-custom">
+      Record, share, learn, grow
+    </div>
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+<meta name="description" content="Welcome to MY BLOG">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:title" content="闫旭亮">
+<meta property="og:description" content="Welcome to MY BLOG">
+
+<meta property="og:image" content="/images/avatar.png">
+
+<meta property="og:url" content="https://2011369.xyz">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="闫旭亮">
+<meta name="twitter:description" content="Welcome to MY BLOG">
+
+<meta name="twitter:image" content="/images/avatar.png">
+
+
+  <meta name="generator" content="Gridea Pro 1.1.1">
+  <title>#学习 | 闫旭亮</title>
+  
+<meta name="description" content="Welcome to MY BLOG">
+<link rel="canonical" href="https://2011369.xyz/tag/getting-started/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"闫旭亮","url":"https://2011369.xyz","description":"Welcome to MY BLOG","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":"https://2011369.xyz/search?q={search_term_string}"}}</script>
+<meta property="og:title" content="闫旭亮">
+<meta property="og:description" content="Welcome to MY BLOG">
+<meta property="og:url" content="https://2011369.xyz/tag/getting-started/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:image" content="/images/avatar.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://2011369.xyz/tag/getting-started/">
+<meta name="twitter:title" content="闫旭亮">
+<meta name="twitter:description" content="Welcome to MY BLOG">
+<meta name="twitter:image" content="/images/avatar.png">
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://2011369.xyz" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/theme/万叶吟风.png" alt="闫旭亮" />
+        </a>
+        
+        <a href="https://2011369.xyz" class="site-name-link">闫旭亮</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">博客</a>
+        
+        <a class="nav-item" href="/memos">闪念</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="/links">友链</a>
+        
+        <a class="nav-item" href="/post/about">关于</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    nav.classList.toggle('top-bar__nav--open');
+    if (hamburger) hamburger.classList.toggle('is-active');
+  });
+  nav.querySelectorAll('.nav-item').forEach(function(item){
+    item.addEventListener('click', function(){
+      nav.classList.remove('top-bar__nav--open');
+      if (hamburger) hamburger.classList.remove('is-active');
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<div class="container">
+  <div class="page-header">
+    <a href="/tags" class="page-back meta-text">&larr; 所有标签</a>
+    <h1 class="page-title"><span class="page-title__hash">#</span>学习</h1>
+    
+    <p class="page-subtitle meta-text">共 10 篇文章</p>
+    
+  </div>
+
+  
+  <div class="post-list">
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/2DguaG/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">第一次让龙虾从开发到部署上线一套管理系统</h3>
+    </a>
+    <a href="/post/2DguaG/" class="post-card__excerpt clamp-2">
+      周末两天让我感受到了龙虾的妖孽程度！一个智能体居然在短短24小时不到的时间就开发上线了一套管理系统，这在过去几乎不敢想，我一个不懂代码不懂服务器运维的小白居然把系统成功跑起来了。
+周六上午带孩子去世博园，体验了一把用非遗蜡染技术亲手做...
+    </a>
+    <div class="post-card__meta meta-text">
+      2026-04-19
+      
+    </div>
+  </div>
+  
+  <a href="/post/2DguaG/" class="post-card__thumb-link">
+    <img class="post-card__thumb" src="https://files.seeusercontent.com/2026/04/19/hK3w/1.png" alt="第一次让龙虾从开发到部署上线一套管理系统" loading="lazy" />
+  </a>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/TjWeIE/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">第一次“养虾”，竟如此惊喜！</h3>
+    </a>
+    <a href="/post/TjWeIE/" class="post-card__excerpt clamp-2">
+      昨晚十一点左右，我让「小龙虾」帮我搜集散落在网络上关于我的痕迹，agent便自动打开云电脑浏览器开始检索。不到二十分钟，就整理好了一张详尽的Excel表格，足足列出25条信息——哪怕有好多网页已经永远丢失了。点开链接看了下虽然多数原网...
+    </a>
+    <div class="post-card__meta meta-text">
+      2026-04-16
+      
+    </div>
+  </div>
+  
+  <a href="/post/TjWeIE/" class="post-card__thumb-link">
+    <img class="post-card__thumb" src="https://files.seeusercontent.com/2026/04/16/mNi6/1776259475589.bmp" alt="第一次“养虾”，竟如此惊喜！" loading="lazy" />
+  </a>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/njEiIMQk3V/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">我用AI编程手搓了一款收费软件</h3>
+    </a>
+    <a href="/post/njEiIMQk3V/" class="post-card__excerpt clamp-2">
+      2026年3月份以来，AI技术迅猛发展，在我看来这是一股强大的时代洪流，更是时代赋予我们的机遇风口，之前我在博客里就提到，这很可能会成为人类的第四次工业革命。
+为了抓住这个风口、不被时代抛弃，我决定利用AI做一些实事。早在2025年年...
+    </a>
+    <div class="post-card__meta meta-text">
+      2026-03-29
+      
+    </div>
+  </div>
+  
+  <a href="/post/njEiIMQk3V/" class="post-card__thumb-link">
+    <img class="post-card__thumb" src="https://files.seeusercontent.com/2026/04/16/Ght5/5dd452f.png" alt="我用AI编程手搓了一款收费软件" loading="lazy" />
+  </a>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/LQost3d1_z/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">我用 AI 做出了本地免费 PDF + 图片压缩工具，不安装、不上传、不限大小、仅19KB</h3>
+    </a>
+    <a href="/post/LQost3d1_z/" class="post-card__excerpt clamp-2">
+      1.🚀 极简图片压缩软件
+核心功能亮点：
+🔒 绝对安全：纯前端 JavaScript 运行，图片不上传服务器。
+🌗 智能深色模式：自动跟随系统切换。
+⚡ 真实进度条：压缩大文件时可见进度动画。
+📱 完美适配：电脑和手机都能用，支持拖拽...
+    </a>
+    <div class="post-card__meta meta-text">
+      2026-03-01
+      
+    </div>
+  </div>
+  
+  <a href="/post/LQost3d1_z/" class="post-card__thumb-link">
+    <img class="post-card__thumb" src="https://files.seeusercontent.com/2026/04/16/5iuV/ac423c6.png" alt="我用 AI 做出了本地免费 PDF + 图片压缩工具，不安装、不上传、不限大小、仅19KB" loading="lazy" />
+  </a>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/IR9KGCa0O/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">分享几个清华大学出品的工具和服务</h3>
+    </a>
+    <a href="/post/IR9KGCa0O/" class="post-card__excerpt clamp-2">
+      1、汉语反向词典
+随着短视频的盛行，人们花费越来越多的时间在观看视频上，而这也导致了阅读时间相对减少。
+时间一长，就出现了这么一种现象，遇到很厉害的东西，如果想不好怎么赞美，最终只有“一句卧槽走遍天下”
+如果你恰好也有这种困境，不妨试...
+    </a>
+    <div class="post-card__meta meta-text">
+      2023-05-07
+      
+    </div>
+  </div>
+  
+  <a href="/post/IR9KGCa0O/" class="post-card__thumb-link">
+    <img class="post-card__thumb" src="https://5b0988e595225.cdn.sohucs.com/images/20190121/bdc03d3b17a049a6be0cddf9387df1d7.jpeg" alt="分享几个清华大学出品的工具和服务" loading="lazy" />
+  </a>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/DKI9Zyn7v/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">通俗易懂：什么是数仓</h3>
+    </a>
+    <a href="/post/DKI9Zyn7v/" class="post-card__excerpt clamp-2">
+      什么是数据仓库
+数据仓库（下文以“数仓”称），顾名思义，存放数据的仓库，它集合了各个业务系统的数据，以金融业为例，数仓包含了贷款业务、CRM、存款业务等数据。用于企业做数据分析、出报告、做决策；在有些公司也作为各业务系统的数据来源。
+...
+    </a>
+    <div class="post-card__meta meta-text">
+      2022-12-21
+      
+    </div>
+  </div>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/pNDAU9IBD/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">域名解析的记录类型：A记录、CNAME、MX记录、NS记录</h3>
+    </a>
+    <a href="/post/pNDAU9IBD/" class="post-card__excerpt clamp-2">
+      1、A记录：
+　　又称IP指向，用户可以在此设置子域名并指向到自己的目标主机地址上，从而实现通过域名找到服务器。
+　　说明：
+　　·指向的目标主机地址类型只能使用IP地址；
+　　1) 添加A记录
+　　在“主机名”中填入子域的名字，“类...
+    </a>
+    <div class="post-card__meta meta-text">
+      2022-12-15
+      
+    </div>
+  </div>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/8c8Hnwi-R/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">初学Markdown 简单语法</h3>
+    </a>
+    <a href="/post/8c8Hnwi-R/" class="post-card__excerpt clamp-2">
+      由于查找一些资料，打开了简书，登录了好几次密码错误，只好微信扫码登录，系统提示我是2019年1月注册的账号，至今没有一篇文章。刚好趁着这个机会学习一下markdown写文章。
+
+按着献给写作者的 Markdown 新手指南这篇官方操...
+    </a>
+    <div class="post-card__meta meta-text">
+      2022-11-27
+      
+    </div>
+  </div>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/tf4ITM_8_/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">使用 instant.page预加速Gridea博客</h3>
+    </a>
+    <a href="/post/tf4ITM_8_/" class="post-card__excerpt clamp-2">
+      前些天在网上发现了 instant.page 这个脚本，它说可以提高网站页面的打开速度，而且大小只有 1kb。于是给本站加上了这个脚本，好像还有点效果，在这里分享一下。
+原理
+PC端：当用户的鼠标在链接上悬停了65毫秒时，这个脚本开始...
+    </a>
+    <div class="post-card__meta meta-text">
+      2022-11-26
+      
+    </div>
+  </div>
+  
+</article>
+
+    
+    <article class="post-card post-card--list">
+  <div class="post-card__body">
+    <a href="/post/1Do4gb5i1/" class="post-card__title-link">
+      <h3 class="post-card__title clamp-3">零成本建立BLOG评论系统数据库方法</h3>
+    </a>
+    <a href="/post/1Do4gb5i1/" class="post-card__excerpt clamp-2">
+      Valine 和Waline  一样，也是支持基于 LeanCloud 作为数据存储的，但是 Waline 支持的部署方式更多：
+1、如何配置valine？
+我们需要注册一个 Leancloud 国际版 的账号，注意，一定要是 国际版...
+    </a>
+    <div class="post-card__meta meta-text">
+      2022-11-26
+      
+    </div>
+  </div>
+  
+</article>
+
+    
+  </div>
+  
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">博客</a>
+      
+      <a class="footer-nav__link" href="/memos">闪念</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="/links">友链</a>
+      
+      <a class="footer-nav__link" href="/post/about">关于</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 闫旭亮. All rights reserved.</p>
+    </div>
+
+    
+    
+    <div class="footer-custom">
+      Record, share, learn, grow
+    </div>
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>

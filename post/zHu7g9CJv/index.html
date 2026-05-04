@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+<meta name="description" content="Welcome to MY BLOG">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:title" content="闫旭亮">
+<meta property="og:description" content="Welcome to MY BLOG">
+
+<meta property="og:image" content="/images/avatar.png">
+
+<meta property="og:url" content="https://2011369.xyz">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="闫旭亮">
+<meta name="twitter:description" content="Welcome to MY BLOG">
+
+<meta name="twitter:image" content="/images/avatar.png">
+
+
+  <meta name="generator" content="Gridea Pro 1.1.1">
+  <title>SQL删除的三个语句：DROP、TRUNCATE、 DELETE 的区别 | 闫旭亮</title>
+  
+<meta property="og:title" content="SQL删除的三个语句：DROP、TRUNCATE、 DELETE 的区别" />
+<meta property="og:type" content="article" />
+
+
+<meta name="description" content="主要介绍了SQL删除语句DROP、TRUNCATE、 DELETE 的区别，帮助大家更好的理解和学习sql语句，感兴趣的朋友可以了解下 DROP: 1 DROP TABLE test; 删除表test，并释放空间，将test删除的一干二净。 TRUNCATE: 1 TRUNCATE test; 删除表test里的内容，并释放空间，但不删除表的定义，表&amp;hellip;">
+<link rel="canonical" href="https://2011369.xyz/post/zHu7g9CJv/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"SQL删除的三个语句：DROP、TRUNCATE、 DELETE 的区别","url":"https://2011369.xyz/post/zHu7g9CJv/","description":"主要介绍了SQL删除语句DROP、TRUNCATE、 DELETE 的区别，帮助大家更好的理解和学习sql语句，感兴趣的朋友可以了解下 DROP: 1 DROP TABLE test; 删除表test，并释放空间，将test删除的一干二净。 TRUNCATE: 1 TRUNCATE test; 删除表test里的内容，并释放空间，但不删除表的定义，表\u0026hellip;","datePublished":"2022-12-07T17:52:41+08:00","dateModified":"2026-04-15T13:38:39+08:00","author":{"@type":"Person","name":"闫旭亮"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"闫旭亮"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://2011369.xyz","name":"闫旭亮","position":1},{"@type":"ListItem","item":"https://2011369.xyz/post/zHu7g9CJv/","name":"SQL删除的三个语句：DROP、TRUNCATE、 DELETE 的区别","position":2}]}</script>
+<meta property="og:title" content="SQL删除的三个语句：DROP、TRUNCATE、 DELETE 的区别">
+<meta property="og:description" content="主要介绍了SQL删除语句DROP、TRUNCATE、 DELETE 的区别，帮助大家更好的理解和学习sql语句，感兴趣的朋友可以了解下 DROP: 1 DROP TABLE test; 删除表test，并释放空间，将test删除的一干二净。 TRUNCATE: 1 TRUNCATE test; 删除表test里的内容，并释放空间，但不删除表的定义，表&amp;hellip;">
+<meta property="og:url" content="https://2011369.xyz/post/zHu7g9CJv/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:image" content="/images/avatar.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://2011369.xyz/post/zHu7g9CJv/">
+<meta name="twitter:title" content="SQL删除的三个语句：DROP、TRUNCATE、 DELETE 的区别">
+<meta name="twitter:description" content="主要介绍了SQL删除语句DROP、TRUNCATE、 DELETE 的区别，帮助大家更好的理解和学习sql语句，感兴趣的朋友可以了解下 DROP: 1 DROP TABLE test; 删除表test，并释放空间，将test删除的一干二净。 TRUNCATE: 1 TRUNCATE test; 删除表test里的内容，并释放空间，但不删除表的定义，表&amp;hellip;">
+<meta name="twitter:image" content="/images/avatar.png">
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://2011369.xyz" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/theme/万叶吟风.png" alt="闫旭亮" />
+        </a>
+        
+        <a href="https://2011369.xyz" class="site-name-link">闫旭亮</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">博客</a>
+        
+        <a class="nav-item" href="/memos">闪念</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="/links">友链</a>
+        
+        <a class="nav-item" href="/post/about">关于</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    nav.classList.toggle('top-bar__nav--open');
+    if (hamburger) hamburger.classList.toggle('is-active');
+  });
+  nav.querySelectorAll('.nav-item').forEach(function(item){
+    item.addEventListener('click', function(){
+      nav.classList.remove('top-bar__nav--open');
+      if (hamburger) hamburger.classList.remove('is-active');
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<article class="article-container">
+  <header class="article-header">
+    <h1 class="article-title">SQL删除的三个语句：DROP、TRUNCATE、 DELETE 的区别</h1>
+    <div class="article-meta">
+      
+      <span class="article-meta__item">2022-12-07</span>
+      
+      <span class="article-meta__sep">·</span>
+      <span class="article-meta__item">2 分钟阅读</span>
+      
+    </div>
+    
+  </header>
+
+  
+
+  <div class="article-content">
+    <p>主要介绍了SQL删除语句DROP、TRUNCATE、 DELETE 的区别，帮助大家更好的理解和学习sql语句，感兴趣的朋友可以了解下</p>
+<p>DROP:</p>
+<p>1</p>
+<p>DROP TABLE test;</p>
+<p>删除表test，并释放空间，将test删除的一干二净。</p>
+<p>TRUNCATE:</p>
+<p>1</p>
+<p>TRUNCATE test;</p>
+<p>删除表test里的内容，并释放空间，但不删除表的定义，表的结构还在。</p>
+<p>DELETE:</p>
+<p>1、删除指定数据</p>
+<p>删除表test中年龄等于30的且国家为US的数据</p>
+<p>1</p>
+<p>DELETE FROM test WHERE age=30 AND country=&lsquo;US&rsquo;;</p>
+<p>2、删除整个表</p>
+<p>仅删除表test内的所有内容，保留表的定义，不释放空间。</p>
+<p>1</p>
+<p>DELETE FROM test 或者 TRUNCATE test;</p>
+<p>truncate table 命令将快速删除数据表中的所有记录，但保留数据表结构。这种快速删除与 delete from 数据表的删除全部数据表记录不一样，delete 命令删除的数据将存储在系统回滚段中，需要的时候，数据可以回滚恢复，而truncate 命令删除的数据是不可以恢复的。</p>
+<p>相同点</p>
+<p>truncate 和不带 where 子句的 delete, 以及 drop 都会删除表内的数据。</p>
+<p>不同点:</p>
+<ol>
+<li>truncate 和 delete 只删除数据不删除表的结构(定义) ，drop 语句将删除表的结构被依赖的约束(constrain), 触发器(trigger), 索引(index); 依赖于该表的存储过程/函数将保留, 但是变为 invalid 状态。<br />
+2.delete 语句是 dml, 这个操作会放到 rollback segement 中, 事务提交之后才生效; 如果有相应的 trigger, 执行的时候将被触发。 truncate, drop 是 ddl, 操作立即生效, 原数据不放到 rollback segment 中, 不能回滚。 操作不触发 trigger。<br />
+3.delete 语句不影响表所占用的 extent, 高水线(high watermark)保持原位置不动。 显然 drop 语句将表所占用的空间全部释放 。 truncate 语句缺省情况下见空间释放到 minextents 个 extent, 除非使用 reuse storage; truncate会将高水线复位(回到最开始)。<br />
+4.速度：一般来说: drop &gt; truncate &gt; delete 。<br />
+5.安全性: 小心使用 drop 和 truncate, 尤其没有备份的时候。否则哭都来不及。<br />
+最后</li>
+</ol>
+<p>使用上, 想删除部分数据行用 delete, 注意带上 where 子句。 回滚段要足够大。</p>
+<p>想删除表, 当然用 drop。</p>
+<p>想保留表而将所有数据删除。如果和事务无关, 用 truncate 即可。 如果和事务有关, 或者想触发 trigger, 还是用 delete。</p>
+<p>如果是整理表内部的碎片, 可以用 truncate 跟上 reuse stroage, 再重新导入/插入数据。</p>
+
+  </div>
+
+  
+  <nav class="post-nav">
+    
+    <a href="/post/pNDAU9IBD/" class="post-nav-card post-nav-card--prev">
+      
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">上一篇</span>
+        <span class="post-nav-card__title">域名解析的记录类型：A记录、CNAME、MX记录、NS记录</span>
+      </div>
+      <span class="post-nav-card__arrow">&larr;</span>
+    </a>
+    
+    
+    <a href="/post/hzg07oDYR/" class="post-nav-card post-nav-card--next">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">下一篇</span>
+        <span class="post-nav-card__title">借助Koyeb免费给Freenom域名自动续期</span>
+      </div>
+      
+      <span class="post-nav-card__arrow">&rarr;</span>
+    </a>
+    
+  </nav>
+
+  
+  
+
+
+  
+    <section class="comment-section">
+  <h2 class="comment-section__title">评论</h2>
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'Ov23lipLNCno1d8r8zy4',
+      clientSecret: 'a86712cf1694deb96dd4a673ce978f25bdf2214f',
+      repo: 'blog-comments',
+      owner: 'zhiyu2011',
+      admin: ['zhiyu2011'],
+      id: location.pathname,
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  </script>
+</section>
+
+  
+
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">博客</a>
+      
+      <a class="footer-nav__link" href="/memos">闪念</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="/links">友链</a>
+      
+      <a class="footer-nav__link" href="/post/about">关于</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 闫旭亮. All rights reserved.</p>
+    </div>
+
+    
+    
+    <div class="footer-custom">
+      Record, share, learn, grow
+    </div>
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>

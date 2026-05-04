@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+<meta name="description" content="Welcome to MY BLOG">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:title" content="闫旭亮">
+<meta property="og:description" content="Welcome to MY BLOG">
+
+<meta property="og:image" content="/images/avatar.png">
+
+<meta property="og:url" content="https://2011369.xyz">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="闫旭亮">
+<meta name="twitter:description" content="Welcome to MY BLOG">
+
+<meta name="twitter:image" content="/images/avatar.png">
+
+
+  <meta name="generator" content="Gridea Pro 1.1.1">
+  <title>第一次让龙虾从开发到部署上线一套管理系统 | 闫旭亮</title>
+  
+<meta property="og:title" content="第一次让龙虾从开发到部署上线一套管理系统" />
+<meta property="og:type" content="article" />
+
+<meta property="og:image" content="https://files.seeusercontent.com/2026/04/19/hK3w/1.png" />
+
+
+<meta name="description" content="周末两天让我感受到了龙虾的妖孽程度！一个智能体居然在短短24小时不到的时间就开发上线了一套管理系统，这在过去几乎不敢想，我一个不懂代码不懂服务器运维的小白居然把系统成功跑起来了。 周六上午带孩子去世博园，体验了一把用非遗蜡染技术亲手做短袖的活动。孩子画得特别认真，在短袖的右胳膊位置写下了“第一次登上月球”，还在衣身上画了从月球视角看到的地球，创意真的很不错。授课老师说，孩子们做出来的每件短袖&amp;hellip;">
+<link rel="canonical" href="https://2011369.xyz/post/2DguaG/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"第一次让龙虾从开发到部署上线一套管理系统","url":"https://2011369.xyz/post/2DguaG/","description":"周末两天让我感受到了龙虾的妖孽程度！一个智能体居然在短短24小时不到的时间就开发上线了一套管理系统，这在过去几乎不敢想，我一个不懂代码不懂服务器运维的小白居然把系统成功跑起来了。 周六上午带孩子去世博园，体验了一把用非遗蜡染技术亲手做短袖的活动。孩子画得特别认真，在短袖的右胳膊位置写下了“第一次登上月球”，还在衣身上画了从月球视角看到的地球，创意真的很不错。授课老师说，孩子们做出来的每件短袖\u0026hellip;","image":"https://files.seeusercontent.com/2026/04/19/hK3w/1.png","datePublished":"2026-04-19T22:33:36+08:00","dateModified":"2026-04-19T22:45:52+08:00","author":{"@type":"Person","name":"闫旭亮"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"闫旭亮"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://2011369.xyz","name":"闫旭亮","position":1},{"@type":"ListItem","item":"https://2011369.xyz/post/2DguaG/","name":"第一次让龙虾从开发到部署上线一套管理系统","position":2}]}</script>
+<meta property="og:title" content="第一次让龙虾从开发到部署上线一套管理系统">
+<meta property="og:description" content="周末两天让我感受到了龙虾的妖孽程度！一个智能体居然在短短24小时不到的时间就开发上线了一套管理系统，这在过去几乎不敢想，我一个不懂代码不懂服务器运维的小白居然把系统成功跑起来了。 周六上午带孩子去世博园，体验了一把用非遗蜡染技术亲手做短袖的活动。孩子画得特别认真，在短袖的右胳膊位置写下了“第一次登上月球”，还在衣身上画了从月球视角看到的地球，创意真的很不错。授课老师说，孩子们做出来的每件短袖&amp;hellip;">
+<meta property="og:url" content="https://2011369.xyz/post/2DguaG/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="闫旭亮">
+<meta property="og:image" content="https://files.seeusercontent.com/2026/04/19/hK3w/1.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://2011369.xyz/post/2DguaG/">
+<meta name="twitter:title" content="第一次让龙虾从开发到部署上线一套管理系统">
+<meta name="twitter:description" content="周末两天让我感受到了龙虾的妖孽程度！一个智能体居然在短短24小时不到的时间就开发上线了一套管理系统，这在过去几乎不敢想，我一个不懂代码不懂服务器运维的小白居然把系统成功跑起来了。 周六上午带孩子去世博园，体验了一把用非遗蜡染技术亲手做短袖的活动。孩子画得特别认真，在短袖的右胳膊位置写下了“第一次登上月球”，还在衣身上画了从月球视角看到的地球，创意真的很不错。授课老师说，孩子们做出来的每件短袖&amp;hellip;">
+<meta name="twitter:image" content="https://files.seeusercontent.com/2026/04/19/hK3w/1.png">
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://2011369.xyz" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/theme/万叶吟风.png" alt="闫旭亮" />
+        </a>
+        
+        <a href="https://2011369.xyz" class="site-name-link">闫旭亮</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">博客</a>
+        
+        <a class="nav-item" href="/memos">闪念</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="/links">友链</a>
+        
+        <a class="nav-item" href="/post/about">关于</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    nav.classList.toggle('top-bar__nav--open');
+    if (hamburger) hamburger.classList.toggle('is-active');
+  });
+  nav.querySelectorAll('.nav-item').forEach(function(item){
+    item.addEventListener('click', function(){
+      nav.classList.remove('top-bar__nav--open');
+      if (hamburger) hamburger.classList.remove('is-active');
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<article class="article-container">
+  <header class="article-header">
+    <h1 class="article-title">第一次让龙虾从开发到部署上线一套管理系统</h1>
+    <div class="article-meta">
+      
+      <span class="article-meta__item">2026-04-19</span>
+      
+      <span class="article-meta__sep">·</span>
+      <span class="article-meta__item">1 分钟阅读</span>
+      
+    </div>
+    
+    <div class="article-header__tags">
+      
+      <a href="/tag/getting-started/" class="tag-pill tag-pill--sm">学习</a>
+      
+      <a href="/tag/work/" class="tag-pill tag-pill--sm">工作</a>
+      
+    </div>
+    
+  </header>
+
+  
+  <div class="article-feature">
+    <img src="https://files.seeusercontent.com/2026/04/19/hK3w/1.png" alt="第一次让龙虾从开发到部署上线一套管理系统" />
+  </div>
+  
+
+  <div class="article-content">
+    <p>周末两天让我感受到了龙虾的妖孽程度！一个智能体居然在短短24小时不到的时间就开发上线了一套管理系统，这在过去几乎不敢想，我一个不懂代码不懂服务器运维的小白居然把系统成功跑起来了。</p>
+<p>周六上午带孩子去世博园，体验了一把用非遗蜡染技术亲手做短袖的活动。孩子画得特别认真，在短袖的右胳膊位置写下了“第一次登上月球”，还在衣身上画了从月球视角看到的地球，创意真的很不错。授课老师说，孩子们做出来的每件短袖都是无价的，更是全世界独一份的，哈哈！</p>
+<p>中午我们在杏园北高速口旁的一个小区附近找了店吃了饭，之后就动身回乾县了。说到这儿你肯定好奇，我为啥要讲这段出行背景？其实是因为我两次用智能体开发软件开发项目，都是回到乾县丈母娘家里，抽了短短几天就写出了雏形。上一回做的是桌面收费系统，这一回我结合自己的工作需求，开发了一套公司内部用的客户管理+部门请假管理系统，目前基础功能已经全部开发完成了。周日晚上回到家，我就让龙虾帮我把项目部署到了服务器上，部署完成后，龙虾给了我支持外网访问的系统登录域名，还有管理员的账号密码。登录进去一看，我提的基本需求差不多都实现了，唯一的小问题就是加载速度稍微慢一点，想想也正常，毕竟用的是国外的免费服务器，龙虾直接给部署在日本节点了。</p>
+<p>我简单加了点测试数据，目前已经发现了两个BUG：一个是点击部门管理菜单后，不显示我新增的部门；另一个是首页统计的本年应收和已收数据出了问题。我让龙虾先修第一个部门管理的BUG，毕竟这个问题会影响权限授权，第二个BUG其实是我当初没把需求描述清楚导致的，估计很好解决。没想到最难的偏偏是第一个BUG，龙虾排查了好久，到现在都还没搞定。更让我发愁的事也来了：龙虾今天的免费额度已经用完了，4000万token都耗空了，没办法接着处理问题，只能等明天再继续了。<br />
+<img src="https://files.seeusercontent.com/2026/04/19/9iGq/4000token2026-04-19_22-31-20.jpg" alt="4000万token2026-04-19_22-31-20.jpg" /></p>
+
+  </div>
+
+  
+  <nav class="post-nav">
+    
+    <a href="/post/QiLuhx/" class="post-nav-card post-nav-card--prev">
+      
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">上一篇</span>
+        <span class="post-nav-card__title">500亿都不够用啊</span>
+      </div>
+      <span class="post-nav-card__arrow">&larr;</span>
+    </a>
+    
+    
+    <a href="/post/TjWeIE/" class="post-nav-card post-nav-card--next">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">下一篇</span>
+        <span class="post-nav-card__title">第一次“养虾”，竟如此惊喜！</span>
+      </div>
+      
+      <div class="post-nav-card__img">
+        <img src="https://files.seeusercontent.com/2026/04/16/mNi6/1776259475589.bmp" alt="第一次“养虾”，竟如此惊喜！" loading="lazy" />
+      </div>
+      
+      <span class="post-nav-card__arrow">&rarr;</span>
+    </a>
+    
+  </nav>
+
+  
+  
+
+
+  
+    <section class="comment-section">
+  <h2 class="comment-section__title">评论</h2>
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    var gitalk = new Gitalk({
+      clientID: 'Ov23lipLNCno1d8r8zy4',
+      clientSecret: 'a86712cf1694deb96dd4a673ce978f25bdf2214f',
+      repo: 'blog-comments',
+      owner: 'zhiyu2011',
+      admin: ['zhiyu2011'],
+      id: location.pathname,
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  </script>
+</section>
+
+  
+
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">博客</a>
+      
+      <a class="footer-nav__link" href="/memos">闪念</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="/links">友链</a>
+      
+      <a class="footer-nav__link" href="/post/about">关于</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 闫旭亮. All rights reserved.</p>
+    </div>
+
+    
+    
+    <div class="footer-custom">
+      Record, share, learn, grow
+    </div>
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>
